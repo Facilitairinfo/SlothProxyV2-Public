@@ -6,7 +6,7 @@ import { snapshot } from './snapshot.js';
 import { search } from './search.js';
 import { page } from './page.js';
 import { cron } from './cron.js';
-import { fetchSites, fetchArticles } from './supabase.js';
+import { getSites, getArticlesBySite, getFacilitairinfo } from './supabase.js';
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -31,25 +31,41 @@ app.get('/snapshot', snapshot);
 app.get('/search', search);
 app.get('/page', page);
 
-// Feed endpoint
+// Feed endpoint (Articles)
 app.get('/feed', async (req, res) => {
   const siteKey = req.query.siteKey;
   if (!siteKey) return res.status(400).json({ error: 'Missing siteKey parameter' });
 
   try {
-    const articles = await fetchArticles(siteKey);
-    res.json({ siteKey, articles });
+    const articles = await getArticlesBySite(siteKey);
+    res.json({ siteKey, count: articles.length, articles });
   } catch (err) {
     console.error('Supabase error:', err);
     res.status(500).json({ error: 'supabase_error', detail: err.message });
   }
 });
 
-// Feeds discovery
+// Feeds discovery (Sites)
 app.get('/feeds', async (_, res) => {
   try {
-    const sites = await fetchSites();
+    const sites = await getSites();
     res.json({ count: sites.length, sites });
+  } catch (err) {
+    console.error('Supabase error:', err);
+    res.status(500).json({ error: 'supabase_error', detail: err.message });
+  }
+});
+
+// Facilitairinfo endpoint
+app.get('/facilitairinfo', async (req, res) => {
+  const { siteKey } = req.query;
+  if (!siteKey) {
+    return res.status(400).json({ error: 'Missing siteKey parameter' });
+  }
+
+  try {
+    const items = await getFacilitairinfo(siteKey);
+    res.json({ siteKey, count: items.length, items });
   } catch (err) {
     console.error('Supabase error:', err);
     res.status(500).json({ error: 'supabase_error', detail: err.message });
