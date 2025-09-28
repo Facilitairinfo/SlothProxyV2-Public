@@ -1,19 +1,22 @@
-# Sloth Proxy v2
+# SlothProxyV2
 
-Headless snapshot- en raw-fetch proxy met Playwright, caching en rate limiting.
-
-## Endpoints
-- GET /health
-- GET /raw?url=...
-- GET /snapshot?url=...
-
-## Config via env
-Zie .env.example
-
-## Ontwikkeling
-npm ci
+## Setup
+1. Kopieer `.env.example` naar `.env` en vul je Supabase gegevens in.
+2. Start Codespace of lokaal:
+npm install
+npx playwright install
 npm run dev
 
-## Productie (Docker)
-docker build -t sloth-proxy-v2 .
-docker run -p 8080:8080 --env-file .env sloth-proxy-v2
+
+## Test
+- Status:
+curl http://localhost:8080/status
+- Feed:
+curl "http://localhost:8080/feed?siteKey=facilitairnetwerk"
+
+
+## Snapshot
+Indien nodig:
+npm i -D playwright 
+npx playwright install
+
