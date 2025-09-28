@@ -1,7 +1,9 @@
 {
   "name": "SlothProxyV2",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npm install && npx playwright install && if [ ! -f .env ] && [ -f .env.example ]; then cp .env.example .env; fi",
+  "remoteUser": "node",
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm ci || npm install && npx playwright install || true && if [ ! -f .env ] && [ -f .env.example ]; then cp .env.example .env; fi",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -9,7 +11,5 @@
         "esbenp.prettier-vscode"
       ]
     }
-  },
-  "forwardPorts": [8080],
-  "remoteUser": "node"
+  }
 }
