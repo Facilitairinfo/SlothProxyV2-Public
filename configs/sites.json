@@ -1,30 +1,26 @@
 {
-  "nen_nl": {
-    "label": "NEN Nieuws",
-    "startUrl": "https://www.nen.nl/nieuws",
-    "siteBase": "https://www.nen.nl",
-    "selectors": {
-      "list": "main article",
-      "title": "a",
-      "link": "a",
-      "date": "time",
-      "summary": "p",
-      "image": "img"
-    },
-    "dateFormat": "auto"
+  "https://www.cfpb.nl/actueel": {
+    "list": "div.card-item.card-item--link",
+    "title": "h3.blog-title a",
+    "link": "h3.blog-title a",
+    "date": "time.blog-date",
+    "summary": "p",
+    "image": ".card-image img"
   },
-  "example_site": {
-    "label": "Voorbeeldsite",
-    "startUrl": "https://example.com/news",
-    "siteBase": "https://example.com",
-    "selectors": {
-      "list": "",
-      "title": "",
-      "link": "",
-      "date": "",
-      "summary": "",
-      "image": ""
-    },
-    "dateFormat": "auto"
+  "https://www.nen.nl/nieuws": {
+    "list": "main article",
+    "title": "a",
+    "link": "a",
+    "date": "time",
+    "summary": "p",
+    "image": "img"
+  },
+  "https://example.com/news": {
+    "list": "article",
+    "title": "h2 a",
+    "link": "h2 a",
+    "date": "time",
+    "summary": "p",
+    "image": "img"
   }
 }
