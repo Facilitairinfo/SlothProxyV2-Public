@@ -35,17 +35,20 @@ function resolveUrl(href, baseUrl) {
 
 // XML feed generator
 function generateXMLFeed(items, siteLabel = 'Feed') {
-  const header = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n<channel>\n<title>${siteLabel}</title>\n<link>${items[0]?.source || ''}</link>\n<description>Feed van ${siteLabel}</description>\n<language>nl</language>\n`;
+  const header = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">\n<channel>\n<title>${siteLabel}</title>\n<link>${items[0]?.source || ''}</link>\n<description>Feed van ${siteLabel}</description>\n<language>nl</language>\n`;
   const footer = `</channel>\n</rss>`;
 
   const entries = items.map(item => {
+    const desc = item.image
+      ? `<![CDATA[<img src="${item.image}" alt="" /><br/>${item.summary || ''}]]>`
+      : `<![CDATA[${item.summary || ''}]]>`;
     return `<item>
   <title><![CDATA[${item.title}]]></title>
   <link>${item.url}</link>
-  <description><![CDATA[${item.summary || ''}]]></description>
+  <description>${desc}</description>
   <pubDate>${new Date(item.published_at).toUTCString()}</pubDate>
   <guid>${item.url}</guid>
-  ${item.image ? `<enclosure url="${item.image}" type="image/jpeg" />` : ''}
+  ${item.image ? `<media:content url="${item.image}" medium="image" />` : ''}
 </item>`;
   }).join('\n');
 
@@ -63,9 +66,6 @@ export async function scrapeLatest() {
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
   const page = await context.newPage();
-
-  const allResults = {};
-  const combined = [];
 
   for (const [url, selectors] of Object.entries(sites)) {
     const siteResults = [];
@@ -97,18 +97,15 @@ export async function scrapeLatest() {
         let dateText = dateNode?.getAttribute('datetime') || dateNode?.textContent?.trim() || null;
         const publishedAt = parseDutchDate(dateText);
 
-        // Samenvatting: max 300 karakters
+        // Samenvatting: eerste alinea volledig
         let summary = null;
-        const summaryNodes = el.querySelectorAll(selectors.summary || 'p');
-        if (summaryNodes.length > 0) {
-          summary = Array.from(summaryNodes)
-            .map(n => n.textContent.trim())
-            .join(' ')
-            .slice(0, 300);
+        const summaryNode = el.querySelector(selectors.summary || 'p');
+        if (summaryNode) {
+          summary = summaryNode.textContent.trim();
         }
         if (!summary) {
           const metaDesc = doc.querySelector('meta[name="description"]')?.getAttribute('content');
-          if (metaDesc) summary = metaDesc.slice(0, 300);
+          if (metaDesc) summary = metaDesc;
         }
 
         // Afbeelding
@@ -138,13 +135,11 @@ export async function scrapeLatest() {
             scraped_at: new Date().toISOString()
           };
           siteResults.push(item);
-          combined.push(item);
         }
       });
 
-      // Sorteer per site
+      // Sorteer per site op publicatiedatum (nieuwste eerst)
       siteResults.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-      allResults[url] = siteResults;
 
       // Bestandsnamen
       const siteKey = url.replace(/https?:\/\//, '').replace(/[^\w]/g, '_');
@@ -160,31 +155,13 @@ export async function scrapeLatest() {
   }
 
   await browser.close();
-
-  // Sorteer gecombineerde feed
-  combined.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-
-  // Schrijf gecombineerde feed
-  fs.writeFileSync('./feeds/combined.json', JSON.stringify(combined, null, 2), 'utf-8');
-  fs.writeFileSync('./feeds/combined.xml', generateXMLFeed(combined, 'Combined Feed'), 'utf-8');
-  console.log('✅ Gecombineerde feed opgeslagen: feeds/combined.json & feeds/combined.xml');
-
-  return combined;
 }
 
 // 🚀 Direct uitvoeren
 if (import.meta.url === `file://${process.argv[1]}`) {
   scrapeLatest()
-    .then(results => {
-      console.log('--- Voorbeeld feed (top 5) ---');
-      results.slice(0, 5).forEach(item => {
-        console.log(`• ${item.title}`);
-        console.log(`  ${item.url}`);
-        console.log(`  📅 ${item.published_at}`);
-        console.log(`  📝 ${item.summary}`);
-        console.log(`  🖼️ ${item.image}`);
-        console.log('');
-      });
+    .then(() => {
+      console.log('--- Scraping voltooid ---');
     })
     .catch(err => {
       console.error('❌ Fout tijdens scraping:', err);
