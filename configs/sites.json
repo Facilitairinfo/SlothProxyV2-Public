@@ -22,5 +22,13 @@
     "date": "time",
     "summary": "p",
     "image": "img"
+  },
+  "https://www.csu.nl/nieuws/": {
+    "list": ".news-overview__item",
+    "title": ".news-overview__title",
+    "link": "a",
+    "date": ".news-overview__date",
+    "summary": ".news-overview__intro",
+    "image": "img"
   }
 }
