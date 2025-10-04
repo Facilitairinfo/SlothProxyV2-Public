@@ -1,0 +1,22 @@
+name: Deploy Feeds to WordPress
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'feeds/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Upload feeds to WordPress
+        uses: curl/curl-action@v1
+        with:
+          args: >
+            -u "${{ secrets.WP_USER }}:${{ secrets.WP_PASS }}"
+            -T feeds/www_nen_nl_nieuws.xml
+            https://www.facilitairnetwerk.com/feeds/www_nen_nl_nieuws.xml
