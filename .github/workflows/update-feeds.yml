@@ -29,6 +29,14 @@ jobs:
       - name: Run scraper
         run: node scraper.js
 
+      - name: Debug feed contents
+        run: |
+          echo "🔎 Aantal items per feed:"
+          for f in feeds/*.xml; do
+            count=$(grep -c "<item>" "$f" || true)
+            echo " - $(basename "$f"): $count items"
+          done
+
       - name: Commit & push feeds
         run: |
           git config --global user.name "github-actions[bot]"
