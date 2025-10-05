@@ -5,6 +5,10 @@ on:
     - cron: "0 * * * *"   # elk uur op het hele uur
   workflow_dispatch:       # handmatig starten via GitHub UI
 
+# ✅ Belangrijk: geef de workflow schrijfrechten op de repo
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
