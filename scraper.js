@@ -12,7 +12,6 @@ function parseDutchDate(text) {
   if (!text) return new Date();
   const parsed = Date.parse(text);
   if (!isNaN(parsed)) return new Date(parsed);
-
   const parts = text.toLowerCase().trim().split(/\s+/);
   if (parts.length === 3) {
     const day = parseInt(parts[0], 10);
@@ -37,7 +36,6 @@ function resolveUrl(href, baseUrl) {
 function generateXMLFeed(items, siteLabel = 'Feed') {
   const header = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">\n<channel>\n<title>${siteLabel}</title>\n<link>${items[0]?.source || ''}</link>\n<description>Feed van ${siteLabel}</description>\n<language>nl</language>\n`;
   const footer = `</channel>\n</rss>`;
-
   const entries = items.map(item => {
     const desc = item.image
       ? `<![CDATA[<img src="${item.image}" alt="" /><br/>${item.summary || ''}]]>`
@@ -51,7 +49,6 @@ function generateXMLFeed(items, siteLabel = 'Feed') {
   ${item.image ? `<media:content url="${item.image}" medium="image" />` : ''}
 </item>`;
   }).join('\n');
-
   return header + entries + '\n' + footer;
 }
 
@@ -76,17 +73,25 @@ export async function scrapeLatest() {
         timeout: Number(process.env.NAV_TIMEOUT_MS) || 25000,
       });
 
+      // Wacht expliciet op containers (voor CSU en dynamische sites)
+      if (selectors.list) {
+        try {
+          await page.waitForSelector(selectors.list, { timeout: 10000 });
+        } catch {
+          console.warn(`⚠️ Geen containers gevonden voor ${url} binnen timeout`);
+        }
+      }
+
       const html = await page.content();
       const dom = new jsdom.JSDOM(html);
       const doc = dom.window.document;
-
       const containers = doc.querySelectorAll(selectors.list || 'article');
-      console.log(`➡️  ${containers.length} containers gevonden voor ${url}`);
+      console.log(`➡️ ${containers.length} containers gevonden voor ${url}`);
 
-      containers.forEach((el, i) => {
+      containers.forEach(el => {
         let title = el.querySelector(selectors.title)?.textContent?.trim() || null;
         if (title && title.toLowerCase().startsWith('lees verder')) {
-          title = title.replace(/^lees verder[:\s-]*/i, '').trim();
+          title = title.replace(/^lees verder[:\\s-]*/i, '').trim();
         }
 
         const linkNode = el.querySelector(selectors.link);
@@ -97,7 +102,6 @@ export async function scrapeLatest() {
         let dateText = dateNode?.getAttribute('datetime') || dateNode?.textContent?.trim() || null;
         const publishedAt = parseDutchDate(dateText);
 
-        // Samenvatting: eerste alinea volledig
         let summary = null;
         const summaryNode = el.querySelector(selectors.summary || 'p');
         if (summaryNode) {
@@ -108,15 +112,10 @@ export async function scrapeLatest() {
           if (metaDesc) summary = metaDesc;
         }
 
-        // Afbeelding
         let image = null;
         const imageNode = selectors.image ? el.querySelector(selectors.image) : null;
         if (imageNode) {
-          image =
-            imageNode.getAttribute('src') ||
-            imageNode.getAttribute('data-src') ||
-            imageNode.getAttribute('srcset') ||
-            null;
+          image = imageNode.getAttribute('src') || imageNode.getAttribute('data-src') || imageNode.getAttribute('srcset') || null;
         }
         if (!image) {
           const pictureNode = el.querySelector('picture source');
@@ -144,10 +143,16 @@ export async function scrapeLatest() {
       // Bestandsnamen
       const siteKey = url.replace(/https?:\/\//, '').replace(/[^\w]/g, '_');
 
+      // ✅ Skip als er geen items zijn
+      if (siteResults.length === 0) {
+        console.warn(`⚠️ Geen items gevonden voor ${url}, feed wordt NIET overschreven`);
+        continue;
+      }
+
       // Schrijf per site JSON en XML in ./feeds/
       fs.writeFileSync(`./feeds/${siteKey}.json`, JSON.stringify(siteResults, null, 2), 'utf-8');
       fs.writeFileSync(`./feeds/${siteKey}.xml`, generateXMLFeed(siteResults, siteKey), 'utf-8');
-      console.log(`✅ Feed opgeslagen: feeds/${siteKey}.json & feeds/${siteKey}.xml`);
+      console.log(`✅ Feed opgeslagen: feeds/${siteKey}.json & feeds/${siteKey}.xml (${siteResults.length} items)`);
 
     } catch (err) {
       console.error(`❌ Fout bij ${url}: ${err.message}`);
