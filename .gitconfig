@@ -1,0 +1,12 @@
+[user]
+  name = github-actions[bot]
+  email = github-actions[bot]@users.noreply.github.com
+
+[pull]
+  rebase = true
+
+[push]
+  default = simple
+
+[core]
+  autocrlf = input
