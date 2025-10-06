@@ -30,5 +30,21 @@
     "date": ".news-overview__date",
     "summary": ".news-overview__intro",
     "image": "img"
+  },
+  "https://www.cushmanwakefield.com/nl-nl/netherlands/insights": {
+    "list": "div.card-insight-body",
+    "title": "p.font-weight-bold a",
+    "link": "p.font-weight-bold a",
+    "date": "span.article-foot",
+    "summary": "div.rich-text",
+    "image": null
+  },
+  "https://www.savills.nl/insight-and-opinion/savills-nieuws.aspx?rc=Netherlands&p=&f=date&q=": {
+    "list": "article.sv-card",
+    "title": "h3.sv-card-title a",
+    "link": "h3.sv-card-title a",
+    "date": "time.sv-card-meta__date",
+    "summary": "h3.sv-card-title a",
+    "image": null
   }
 }

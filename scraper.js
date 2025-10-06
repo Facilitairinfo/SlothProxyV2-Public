@@ -68,17 +68,27 @@ export async function scrapeLatest() {
     const siteResults = [];
     try {
       console.log(`🔎 Start scraping: ${url}`);
-      await page.goto(url, {
-        waitUntil: process.env.WAIT_UNTIL || 'networkidle',
-        timeout: Number(process.env.NAV_TIMEOUT_MS) || 25000,
-      });
+
+      // 🔧 Cushman-aanvulling: langere timeout + fallback naar domcontentloaded
+      try {
+        await page.goto(url, {
+          waitUntil: process.env.WAIT_UNTIL || 'networkidle',
+          timeout: Number(process.env.NAV_TIMEOUT_MS) || 40000,
+        });
+      } catch (err) {
+        console.warn(`⚠️ Networkidle timeout voor ${url}, probeer domcontentloaded...`);
+        await page.goto(url, {
+          waitUntil: 'domcontentloaded',
+          timeout: 40000,
+        });
+      }
 
       // Wacht expliciet op containers (voor CSU en dynamische sites)
       if (selectors.list) {
         try {
-          await page.waitForSelector(selectors.list, { timeout: 10000 });
+          await page.waitForSelector(selectors.list, { timeout: 15000 });
         } catch {
-          console.warn(`⚠️ Geen containers gevonden voor ${url} binnen timeout`);
+          console.warn(`⚠️ Geen containers gevonden voor ${url} met selector "${selectors.list}"`);
         }
       }
 
@@ -91,7 +101,7 @@ export async function scrapeLatest() {
       containers.forEach(el => {
         let title = el.querySelector(selectors.title)?.textContent?.trim() || null;
         if (title && title.toLowerCase().startsWith('lees verder')) {
-          title = title.replace(/^lees verder[:\\s-]*/i, '').trim();
+          title = title.replace(/^lees verder[:\s-]*/i, '').trim();
         }
 
         const linkNode = el.querySelector(selectors.link);
