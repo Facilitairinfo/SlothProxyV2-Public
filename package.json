@@ -1,25 +1,29 @@
 {
-  "name": "slothproxy",
-  "version": "0.0.0",
-  "private": true,
+  "name": "slothproxyv2",
+  "version": "1.0.0",
+  "description": "Automated scraper and feed generator for FacilitairInfo",
+  "main": "scraper.js",
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development node server.js",
-    "start": "NODE_ENV=production node server.js"
+    "scrape": "node scraper.js",
+    "feeds:check": "node printFeedPaths.js",
+    "feeds:missing": "node printFeedPaths.js --missing",
+    "feeds:open": "node printFeedPaths.js --missing --open",
+    "feeds:count": "node printFeedPaths.js --count",
+    "feeds:cleanup": "node cleanupFeeds.js"
   },
+  "keywords": [
+    "scraper",
+    "feeds",
+    "automation",
+    "supabase",
+    "github-pages"
+  ],
+  "author": "FacilitairInfo",
+  "license": "MIT",
   "dependencies": {
-    "@supabase/supabase-js": "^2.47.10",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "jsdom": "^27.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^9.13.0",
-    "playwright": "^1.48.2",
-    "prettier": "^3.3.3"
-  },
-  "engines": {
-    "node": ">=20"
+    "@supabase/supabase-js": "^2.45.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2"
   }
 }
