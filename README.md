@@ -1,5 +1,7 @@
 # SlothProxyV2
 
+[![Update Feeds](https://github.com/Facilitairinfo/SlothProxyV2/actions/workflows/update-feeds.yml/badge.svg)](https://github.com/Facilitairinfo/SlothProxyV2/actions/workflows/update-feeds.yml)
+
 ## Setup
 1. Kopieer `.env.example` naar `.env` en vul je Supabase gegevens in.
 2. Start Codespace of lokaal:
