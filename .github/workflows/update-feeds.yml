@@ -5,7 +5,6 @@ on:
     - cron: "0 * * * *"   # elk uur op het hele uur
   workflow_dispatch:       # handmatig starten via GitHub UI
 
-# ✅ Belangrijk: geef de workflow schrijfrechten op de repo
 permissions:
   contents: write
 
@@ -18,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: true
-          fetch-depth: 0   # volledige geschiedenis nodig voor rebase
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,8 +30,11 @@ jobs:
       - name: Install Playwright browsers & deps
         run: npx playwright install --with-deps
 
-      - name: Run scraper
-        run: node scraper.js
+      - name: Run scraper (incl. Supabase keep-alive)
+        run: npm run scrape
+
+      - name: Cleanup suffixed feed files
+        run: npm run feeds:cleanup
 
       - name: Debug feed contents
         run: |
@@ -42,7 +44,6 @@ jobs:
             echo " - $(basename "$f"): $count items"
           done
 
-      # 🔧 Nieuw: haal laatste stand binnen vóór commit
       - name: Pull latest main with rebase
         run: |
           git config --global pull.rebase true
