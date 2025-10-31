@@ -70,3 +70,10 @@ jobs:
           git add -f feeds/*.xml feeds/*.json
           git commit -m "Automatische feed update: $(date '+%Y-%m-%d %H:%M:%S')" || echo "⚠️ Geen wijzigingen om te committen"
           git push origin main
+
+      # 🧹 Nieuw: opruimen van artifacts om storage te besparen
+      - name: Delete old workflow artifacts
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: "*"
+          failOnError: false
