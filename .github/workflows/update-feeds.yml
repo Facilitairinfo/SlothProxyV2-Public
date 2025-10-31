@@ -2,7 +2,6 @@ name: Update Feeds
 
 on:
   schedule:
-    # Draait om 02:00, 06:00, 10:00, 14:00, 18:00 en 22:00
     - cron: "0 2,6,10,14,18,22 * * *"
   workflow_dispatch:
 
@@ -12,6 +11,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 15   # ⏱️ voorkomt vastlopers
 
     steps:
       - name: Checkout repository
@@ -45,17 +45,21 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run scraper (incl. Supabase keep-alive)
-        run: npm run scrape --silent
+        run: npm run scrape --silent || echo "⚠️ Scraper had errors, continuing..."
 
       - name: Cleanup suffixed feed files
-        run: npm run feeds:cleanup --silent
+        run: npm run feeds:cleanup --silent || true
 
-      # 🔍 Minimal debug: alleen totaal aantal items loggen
+      # 🔍 Minimal debug + borging
       - name: Debug feed summary
         run: |
           total=0
           for f in feeds/*.xml; do
             count=$(grep -c "<item>" "$f" || true)
+            echo " - $(basename "$f"): $count items"
+            if [ "$count" -eq 0 ]; then
+              echo "⚠️ WAARSCHUWING: $(basename "$f") bevat 0 items!"
+            fi
             total=$((total+count))
           done
           echo "✅ Totaal aantal items in alle feeds: $total"
@@ -71,7 +75,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f feeds/*.xml feeds/*.json
           git commit -m "Automatische feed update: $(date '+%Y-%m-%d %H:%M:%S')" || echo "⚠️ Geen wijzigingen om te committen"
-          git push origin main
+          git push origin main || echo "⚠️ Push mislukt, probeer handmatig te syncen"
 
       # 🧹 Artifact cleanup
       - name: Delete old workflow artifacts
