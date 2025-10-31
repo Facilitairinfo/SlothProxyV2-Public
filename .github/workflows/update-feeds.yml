@@ -26,7 +26,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --silent
 
       # 🔧 Cache Playwright browsers
       - name: Get Playwright version
@@ -45,18 +45,20 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run scraper (incl. Supabase keep-alive)
-        run: npm run scrape
+        run: npm run scrape --silent
 
       - name: Cleanup suffixed feed files
-        run: npm run feeds:cleanup
+        run: npm run feeds:cleanup --silent
 
-      - name: Debug feed contents
+      # 🔍 Minimal debug: alleen totaal aantal items loggen
+      - name: Debug feed summary
         run: |
-          echo "🔎 Aantal items per feed:"
+          total=0
           for f in feeds/*.xml; do
             count=$(grep -c "<item>" "$f" || true)
-            echo " - $(basename "$f"): $count items"
+            total=$((total+count))
           done
+          echo "✅ Totaal aantal items in alle feeds: $total"
 
       - name: Pull latest main with rebase
         run: |
@@ -71,7 +73,7 @@ jobs:
           git commit -m "Automatische feed update: $(date '+%Y-%m-%d %H:%M:%S')" || echo "⚠️ Geen wijzigingen om te committen"
           git push origin main
 
-      # 🧹 Nieuw: opruimen van artifacts om storage te besparen
+      # 🧹 Artifact cleanup
       - name: Delete old workflow artifacts
         uses: geekyeggo/delete-artifact@v2
         with:
