@@ -12,8 +12,6 @@ jobs:
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
 
     steps:
       - name: Checkout repository
@@ -27,12 +25,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # ✅ Migraties uitvoeren vóór de scraper
-      - name: Run database migrations
-        run: npx supabase db push --db-url "$SUPABASE_DB_URL"
-        env:
-          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
-
+      # ✅ Alleen de scraper draaien
       - name: Run scraper
         run: npm run scrape
 
