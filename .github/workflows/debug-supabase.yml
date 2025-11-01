@@ -1,0 +1,33 @@
+name: Debug Supabase Secrets
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Debug SUPABASE_URL
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "❌ SUPABASE_URL is NOT set"
+            exit 1
+          else
+            echo "✅ SUPABASE_URL is set"
+          fi
+
+      - name: Debug SUPABASE_KEY
+        run: |
+          if [ -z "$SUPABASE_KEY" ]; then
+            echo "❌ SUPABASE_KEY is NOT set"
+            exit 1
+          else
+            echo "✅ SUPABASE_KEY is set"
+          fi
