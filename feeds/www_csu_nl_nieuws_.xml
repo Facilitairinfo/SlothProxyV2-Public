@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
-<channel>
-<title>www_csu_nl_nieuws_</title>
-<link></link>
-<description>Feed van www_csu_nl_nieuws_</description>
-<language>nl</language>
-
-</channel>
-</rss>
+  <rss version="2.0">
+    <channel>
+      <title>www_csu_nl_nieuws_</title>
+      <link>https://www_csu_nl_nieuws_</link>
+      <description>Feed for www_csu_nl_nieuws_</description>
+      
+    </channel>
+  </rss>
