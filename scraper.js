@@ -6,13 +6,13 @@ import { createClient } from '@supabase/supabase-js';
 
 // Supabase client + debug checks
 const supabaseUrl = process.env.SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_KEY;
+const supabaseKey = process.env.SUPABASE_KEY; // aangepast naar SUPABASE_KEY
 
 if (!supabaseUrl) {
   throw new Error("❌ SUPABASE_URL is missing. Controleer je GitHub secret.");
 }
 if (!supabaseKey) {
-  throw new Error("❌ SUPABASE_SERVICE_KEY is missing. Controleer je GitHub secret.");
+  throw new Error("❌ SUPABASE_KEY is missing. Controleer je GitHub secret.");
 }
 
 const supabase = createClient(supabaseUrl, supabaseKey);
