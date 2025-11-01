@@ -26,11 +26,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # ✅ Nieuwe stap: migraties uitvoeren vóór de scraper
+      # ✅ Migraties uitvoeren vóór de scraper
       - name: Run database migrations
-        run: npx supabase db push
+        run: npx supabase db push --project-ref feylgjuuqmqujtlwwfza
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
       - name: Run scraper
