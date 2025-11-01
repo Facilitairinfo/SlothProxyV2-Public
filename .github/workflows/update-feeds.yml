@@ -24,7 +24,7 @@ jobs:
 
       - name: Get Playwright version
         run: |
-          echo "PLAYWRIGHT_VERSION=$(node -p "require('./package-lock.json').dependencies['playwright'].version")" >> $GITHUB_ENV
+          echo "PLAYWRIGHT_VERSION=$(jq -r '.devDependencies.playwright.version // .dependencies.playwright.version' package-lock.json)" >> $GITHUB_ENV
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
