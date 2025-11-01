@@ -78,39 +78,31 @@ async function scrapeSite(url, config) {
     const siteKey = url.replace(/https?:\/\//, '').replace(/[^\w]/g, '_');
     writeFeeds(siteKey, items);
 
-    // ⬇️ Schrijf items naar Supabase (public.articles), voorkom dubbele records
+    // ⬇️ Schrijf items naar Supabase (public.articles)
     for (const item of items) {
-      const { data: existing, error: selectError } = await supabase
-        .from('articles')
-        .select('id')
-        .eq('title', item.title)
-        .eq('site', siteKey)
-        .limit(1);
+      try {
+        const { error } = await supabase.from('articles').insert([
+          {
+            title: item.title,
+            content: item.link,   // link opslaan in content
+            site: siteKey,
+            author: 'scraper',    // placeholder
+            timestampinfo: item.date || new Date().toISOString()
+          }
+        ]);
 
-      if (selectError) {
-        console.error(`⚠️ Select error voor ${item.title}:`, selectError.message);
-        continue;
-      }
-
-      if (existing && existing.length > 0) {
-        console.log(`ℹ️ Overgeslagen (bestaat al): ${item.title}`);
-        continue;
-      }
-
-      const { error: insertError } = await supabase.from('articles').insert([
-        {
-          title: item.title,
-          content: item.link,   // link opslaan in content
-          site: siteKey,
-          author: 'scraper',    // placeholder
-          timestampinfo: item.date || new Date().toISOString()
+        if (error) {
+          // Als de unieke index een duplicate blokkeert, log dat netjes
+          if (error.code === '23505') {
+            console.log(`ℹ️ Overgeslagen (duplicate): ${item.title}`);
+          } else {
+            console.error(`⚠️ Insert error voor ${item.title}:`, error.message);
+          }
+        } else {
+          console.log(`✅ Nieuw artikel toegevoegd: ${item.title}`);
         }
-      ]);
-
-      if (insertError) {
-        console.error(`⚠️ Insert error voor ${item.title}:`, insertError.message);
-      } else {
-        console.log(`✅ Nieuw artikel toegevoegd: ${item.title}`);
+      } catch (err) {
+        console.error(`⚠️ Exception bij insert van ${item.title}:`, err.message);
       }
     }
 
