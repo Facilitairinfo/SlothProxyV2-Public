@@ -4,9 +4,17 @@ import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
 import { createClient } from '@supabase/supabase-js';
 
-// Supabase client
+// Supabase client + debug checks
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_SERVICE_KEY;
+
+if (!supabaseUrl) {
+  throw new Error("❌ SUPABASE_URL is missing. Controleer je GitHub secret.");
+}
+if (!supabaseKey) {
+  throw new Error("❌ SUPABASE_SERVICE_KEY is missing. Controleer je GitHub secret.");
+}
+
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Configs
@@ -92,11 +100,58 @@ async function keepAlive() {
   }
 }
 
+// 🔎 Debug: test SELECT
+async function testSelect() {
+  const { data, error } = await supabase
+    .from('articles')
+    .select('*')
+    .limit(1);
+
+  if (error) {
+    console.error("❌ Select error:", error.message);
+  } else {
+    console.log("✅ Select gelukt. Voorbeeldrij:", data);
+  }
+}
+
+// 🔎 Debug: test INSERT + cleanup
+async function testInsert() {
+  const { data, error } = await supabase
+    .from('articles')
+    .insert([
+      { title: 'Test insert', content: 'Dit is een testrecord', created_at: new Date() }
+    ])
+    .select();
+
+  if (error) {
+    console.error("❌ Insert error:", error.message);
+    return;
+  }
+
+  console.log("✅ Insert gelukt:", data);
+
+  // Verwijder testrecord weer
+  const { error: deleteError } = await supabase
+    .from('articles')
+    .delete()
+    .eq('id', data[0].id);
+
+  if (deleteError) {
+    console.error("⚠️ Kon testrecord niet verwijderen:", deleteError.message);
+  } else {
+    console.log("🧹 Testrecord verwijderd");
+  }
+}
+
 // Main
 (async () => {
+  // Run scraper
   for (const [url, config] of Object.entries(sites)) {
     await scrapeSite(url, config);
   }
 
+  // Supabase checks
   await keepAlive();
+  await testSelect();
+  await testInsert();
 })();
