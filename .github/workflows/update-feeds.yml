@@ -2,84 +2,47 @@ name: Update Feeds
 
 on:
   schedule:
-    - cron: "0 2,6,10,14,18,22 * * *"
+    - cron: "0 2,6,10,14,18,22 * * *"   # draait 6x per dag
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15   # ⏱️ voorkomt vastlopers
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: npm install --silent
+        run: npm ci
 
-      # 🔧 Cache Playwright browsers
       - name: Get Playwright version
-        id: playwright-version
-        run: echo "PLAYWRIGHT_VERSION=$(node -e \"console.log(require('./package-lock.json').dependencies['playwright'].version)\")" >> $GITHUB_ENV
+        run: |
+          echo "PLAYWRIGHT_VERSION=$(node -p "require('./package-lock.json').dependencies['playwright'].version")" >> $GITHUB_ENV
 
-      - name: Cache Playwright binaries
-        uses: actions/cache@v3
-        id: playwright-cache
-        with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}
-
-      - name: Install Playwright browsers (only if cache miss)
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
+      - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      - name: Run scraper (incl. Supabase keep-alive)
-        run: npm run scrape --silent || echo "⚠️ Scraper had errors, continuing..."
+      - name: Run scraper
+        run: npm run scrape
 
-      - name: Cleanup suffixed feed files
-        run: npm run feeds:cleanup --silent || true
-
-      # 🔍 Minimal debug + borging
-      - name: Debug feed summary
-        run: |
-          total=0
-          for f in feeds/*.xml; do
-            count=$(grep -c "<item>" "$f" || true)
-            echo " - $(basename "$f"): $count items"
-            if [ "$count" -eq 0 ]; then
-              echo "⚠️ WAARSCHUWING: $(basename "$f") bevat 0 items!"
-            fi
-            total=$((total+count))
-          done
-          echo "✅ Totaal aantal items in alle feeds: $total"
-
-      - name: Pull latest main with rebase
-        run: |
-          git config --global pull.rebase true
-          git pull origin main || true
-
-      - name: Commit & push feeds
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f feeds/*.xml feeds/*.json
-          git commit -m "Automatische feed update: $(date '+%Y-%m-%d %H:%M:%S')" || echo "⚠️ Geen wijzigingen om te committen"
-          git push origin main || echo "⚠️ Push mislukt, probeer handmatig te syncen"
+          git add feeds/*
+          git commit -m "Update feeds [skip ci]" || echo "No changes to commit"
+          git push
 
-      # 🧹 Artifact cleanup
-      - name: Delete old workflow artifacts
-        uses: geekyeggo/delete-artifact@v2
-        with:
-          name: "*"
-          failOnError: false
+      - name: Cleanup old artifacts
+        run: |
+          echo "Cleaning up old workflow artifacts..."
+          gh run list --limit 50 --json databaseId,status | jq -r '.[] | select(.status=="completed") | .databaseId' | xargs -I {} gh run delete {}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
