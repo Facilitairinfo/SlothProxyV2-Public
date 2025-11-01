@@ -2,35 +2,36 @@ name: Update Feeds
 
 on:
   schedule:
-    - cron: "0 2,6,10,14,18,22 * * *"   # draait 6x per dag
+    - cron: "0 2,6,10,14,18,22 * * *" # draait 6x per dag
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      - name: Get Playwright version
-        run: |
-          echo "PLAYWRIGHT_VERSION=$(jq -r '.packages[\"node_modules/playwright\"].version' package-lock.json)" >> $GITHUB_ENV
-
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+      # ✅ Nieuwe stap: migraties uitvoeren vóór de scraper
+      - name: Run database migrations
+        run: npx supabase db push
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
       - name: Run scraper
         run: npm run scrape
@@ -39,13 +40,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add feeds/*
+          git add feeds/
           git commit -m "Update feeds [skip ci]" || echo "No changes to commit"
           git push
-
-      - name: Cleanup old artifacts
-        run: |
-          echo "Cleaning up old workflow artifacts..."
-          gh run list --limit 50 --json databaseId,status | jq -r '.[] | select(.status=="completed") | .databaseId' | xargs -I {} gh run delete {}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
