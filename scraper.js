@@ -1,54 +1,52 @@
+// scraper.js
 import fs from 'fs';
 import path from 'path';
 import fetch from 'node-fetch';
+import { URL as NodeURL } from 'url';
 import * as cheerio from 'cheerio';
 import { createClient } from '@supabase/supabase-js';
 
-// Supabase client + checks
+// Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
 
-if (!supabaseUrl) {
-  throw new Error("❌ SUPABASE_URL is missing. Controleer je GitHub secret.");
-}
-if (!supabaseKey) {
-  throw new Error("❌ SUPABASE_KEY is missing. Controleer je GitHub secret.");
-}
+if (!supabaseUrl) throw new Error("❌ SUPABASE_URL ontbreekt");
+if (!supabaseKey) throw new Error("❌ SUPABASE_KEY ontbreekt");
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Configs
 const sites = JSON.parse(fs.readFileSync('./configs/sites.json', 'utf-8'));
 const feedsDir = './feeds';
+if (!fs.existsSync(feedsDir)) fs.mkdirSync(feedsDir);
 
-// Zorg dat feeds/ bestaat
-if (!fs.existsSync(feedsDir)) {
-  fs.mkdirSync(feedsDir);
+// Helper: maak nette feed key
+function buildFeedKey(url) {
+  const u = new NodeURL(url);
+  const pathPart = u.pathname.replace(/\/+$/, '');
+  return `${u.host}${pathPart}`.replace(/[^\w]/g, '_');
 }
 
 // Helper: schrijf JSON en XML feeds
-function writeFeeds(siteKey, items) {
+function writeFeeds(sourceUrl, siteKey, items) {
   const jsonPath = path.join(feedsDir, `${siteKey}.json`);
   const xmlPath = path.join(feedsDir, `${siteKey}.xml`);
 
   fs.writeFileSync(jsonPath, JSON.stringify(items, null, 2));
 
-  const xmlItems = items
-    .map(
-      (item) => `
+  const xmlItems = items.map(item => `
     <item>
       <title><![CDATA[${item.title}]]></title>
       <link>${item.link}</link>
       <pubDate>${item.date}</pubDate>
-    </item>`
-    )
-    .join('\n');
+      ${item.image ? `<enclosure url="${item.image}" type="image/jpeg" />` : ''}
+    </item>`).join('\n');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
   <rss version="2.0">
     <channel>
       <title>${siteKey}</title>
-      <link>https://${siteKey}</link>
+      <link>${sourceUrl}</link>
       <description>Feed for ${siteKey}</description>
       ${xmlItems}
     </channel>
@@ -60,49 +58,58 @@ function writeFeeds(siteKey, items) {
 // Scraper
 async function scrapeSite(url, config) {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+      }
+    });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const html = await res.text();
     const $ = cheerio.load(html);
 
+    const nodes = config.list ? $(config.list) : $();
+    console.log(`ℹ️ ${url} status=${res.status}, nodesFound=${nodes.length}`);
+
     const items = [];
-    $(config.itemSelector).each((_, el) => {
-      const title = $(el).find(config.titleSelector).text().trim();
-      const link = new URL($(el).find(config.linkSelector).attr('href'), url).href;
-      const date = $(el).find(config.dateSelector).text().trim();
+    nodes.each((_, el) => {
+      const title = config.title ? $(el).find(config.title).text().trim() : '';
+      const rawHref = config.link ? $(el).find(config.link).attr('href') : '';
+      const link = rawHref ? new NodeURL(rawHref, url).href : '';
+      const date = config.date ? $(el).find(config.date).text().trim() : '';
+      const summary = config.summary ? $(el).find(config.summary).text().trim() : '';
+      const image = config.image ? $(el).find(config.image).attr('src') || '' : '';
       if (title && link) {
-        items.push({ title, link, date });
+        items.push({ title, link, date, summary, image });
       }
     });
 
-    const siteKey = url.replace(/https?:\/\//, '').replace(/[^\w]/g, '_');
-    writeFeeds(siteKey, items);
+    const siteKey = buildFeedKey(url);
+    writeFeeds(url, siteKey, items);
 
-    // ⬇️ Schrijf items naar Supabase (public.articles)
     for (const item of items) {
       try {
-        const { error } = await supabase.from('articles').insert([
-          {
-            title: item.title,
-            content: item.link,   // link opslaan in content
-            site: siteKey,
-            author: 'scraper',    // placeholder
-            timestampinfo: item.date || new Date().toISOString()
-          }
-        ]);
-
+        const row = {
+          title: item.title,
+          content: item.summary || item.link,
+          site: 'CSU',          // of dynamisch: config.siteName
+          source: siteKey,
+          image: item.image || null,
+          created_at: new Date().toISOString()
+        };
+        const { error } = await supabase.from('articles').insert([row]);
         if (error) {
-          // Als de unieke index een duplicate blokkeert, log dat netjes
           if (error.code === '23505') {
-            console.log(`ℹ️ Overgeslagen (duplicate): ${item.title}`);
+            console.log(`ℹ️ Duplicate overgeslagen: ${item.title}`);
           } else {
-            console.error(`⚠️ Insert error voor ${item.title}:`, error.message);
+            console.error(`⚠️ Insert error: ${error.message}`);
           }
         } else {
           console.log(`✅ Nieuw artikel toegevoegd: ${item.title}`);
         }
       } catch (err) {
-        console.error(`⚠️ Exception bij insert van ${item.title}:`, err.message);
+        console.error(`⚠️ Exception bij insert: ${err.message}`);
       }
     }
 
@@ -116,11 +123,8 @@ async function scrapeSite(url, config) {
 async function keepAlive() {
   try {
     const { error } = await supabase.from('articles').select('id').limit(1);
-    if (error) {
-      console.error('⚠️ Supabase keep-alive error:', error.message);
-    } else {
-      console.log('✅ Supabase keep-alive ping uitgevoerd');
-    }
+    if (error) console.error('⚠️ Supabase keep-alive error:', error.message);
+    else console.log('✅ Supabase keep-alive ping uitgevoerd');
   } catch (err) {
     console.error('⚠️ Supabase keep-alive exception:', err.message);
   }
@@ -128,8 +132,22 @@ async function keepAlive() {
 
 // Main
 (async () => {
-  for (const [url, config] of Object.entries(sites)) {
+  const onlySite = process.env.SITE_TO_TEST;
+  const entries = Object.entries(sites);
+
+  if (onlySite) {
+    const hit = entries.find(([u]) => u === onlySite);
+    if (!hit) {
+      console.log(`⚠️ SITE_TO_TEST="${onlySite}" niet gevonden in sites.json`);
+      return;
+    }
+    const [url, config] = hit;
+    console.log(`ℹ️ Running single-site scrape for: ${url}`);
     await scrapeSite(url, config);
+  } else {
+    for (const [url, config] of entries) {
+      await scrapeSite(url, config);
+    }
   }
 
   await keepAlive();
