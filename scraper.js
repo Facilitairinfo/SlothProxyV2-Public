@@ -41,8 +41,12 @@ function parseDutchDate(str) {
   const month = nlMonths[parts[1]];
   const year = parseInt(parts[2], 10);
   if (!day || !month || !year) return null;
-  const iso = new Date(Date.UTC(year, month - 1, day));
-  return iso.toISOString();
+  return new Date(Date.UTC(year, month - 1, day));
+}
+
+// Helper: formatteer naar RFC‑822 (voor RSS pubDate)
+function toRfc822(date) {
+  return date instanceof Date ? date.toUTCString() : new Date().toUTCString();
 }
 
 // Helper: schrijf JSON en XML feeds
@@ -52,14 +56,17 @@ function writeFeeds(sourceUrl, siteKey, items) {
 
   fs.writeFileSync(jsonPath, JSON.stringify(items, null, 2));
 
-  const xmlItems = items.map(item => `
+  const xmlItems = items.map(item => {
+    const pubDate = item.dateObj ? toRfc822(item.dateObj) : toRfc822(new Date());
+    return `
     <item>
       <title><![CDATA[${item.title}]]></title>
       <link>${item.link}</link>
-      <pubDate>${item.date}</pubDate>
+      <pubDate>${pubDate}</pubDate>
       ${item.summary ? `<description><![CDATA[${item.summary}]]></description>` : ''}
-      ${item.image ? `<enclosure url="${item.image}" type="image/jpeg" />` : ''}
-    </item>`).join('\n');
+      ${item.image ? `<enclosure url="${item.image}" type="image/jpeg" length="0" />` : ''}
+    </item>`;
+  }).join('\n');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
   <rss version="2.0">
@@ -96,11 +103,12 @@ async function scrapeSite(url, config) {
       const title = config.title ? $(el).find(config.title).text().trim() : '';
       const rawHref = config.link ? $(el).find(config.link).attr('href') : '';
       const link = rawHref ? new NodeURL(rawHref, url).href : '';
-      const date = config.date ? $(el).find(config.date).text().trim() : '';
+      const dateStr = config.date ? $(el).find(config.date).text().trim() : '';
+      const dateObj = parseDutchDate(dateStr);
       const summary = config.summary ? $(el).find(config.summary).text().trim() : '';
       const image = config.image ? $(el).find(config.image).attr('src') || '' : '';
       if (title && link) {
-        items.push({ title, link, date, summary, image });
+        items.push({ title, link, date: dateStr, dateObj, summary, image });
       }
     });
 
@@ -115,7 +123,7 @@ async function scrapeSite(url, config) {
           site: config.siteName || new NodeURL(url).hostname,
           source: siteKey,
           image: item.image || null,
-          created_at: parseDutchDate(item.date) || new Date().toISOString()
+          created_at: (item.dateObj ? item.dateObj.toISOString() : new Date().toISOString())
         };
         const { error } = await supabase.from('articles').insert([row]);
         if (error) {
