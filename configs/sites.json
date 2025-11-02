@@ -1,5 +1,6 @@
 {
   "https://www.cfpb.nl/actueel": {
+    "siteName": "CfPB",
     "list": "div.card-item.card-item--link",
     "title": "h3.blog-title a",
     "link": "h3.blog-title a",
@@ -8,6 +9,7 @@
     "image": ".card-image img"
   },
   "https://www.nen.nl/nieuws": {
+    "siteName": "NEN",
     "list": "main article",
     "title": "a",
     "link": "a",
@@ -15,15 +17,8 @@
     "summary": "p",
     "image": "img"
   },
-  "https://example.com/news": {
-    "list": "article",
-    "title": "h2 a",
-    "link": "h2 a",
-    "date": "time",
-    "summary": "p",
-    "image": "img"
-  },
   "https://www.csu.nl/nieuws/": {
+    "siteName": "CSU",
   "list": "article.snippet-news",
   "title": ".snippet-news__title",
   "link": "a.snippet-news__link",
@@ -32,6 +27,7 @@
   "image": "img.snippet-news__image"
   },
   "https://www.cushmanwakefield.com/nl-nl/netherlands/insights": {
+    "siteName": "Cushman & Wakefield",
     "list": "div.card-insight-body",
     "title": "p.font-weight-bold a",
     "link": "p.font-weight-bold a",
@@ -40,6 +36,7 @@
     "image": null
   },
   "https://www.savills.nl/insight-and-opinion/savills-nieuws.aspx?rc=Netherlands&p=&f=date&q=": {
+    "siteName": "Savills Nederland",
     "list": "article.sv-card",
     "title": "h3.sv-card-title a",
     "link": "h3.sv-card-title a",
