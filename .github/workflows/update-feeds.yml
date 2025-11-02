@@ -41,9 +41,11 @@ jobs:
 
       - name: Verify feed output
         run: |
-          echo "🔎 Controleren of pubDate en enclosure aanwezig zijn in een voorbeeldfeed..."
+          echo "🔎 Controleren of pubDate en enclosure aanwezig zijn in de feeds..."
           if grep -q "<pubDate>" feeds/*.xml && grep -q "<enclosure" feeds/*.xml; then
             echo "✅ pubDate en enclosure gevonden in feed-bestanden"
           else
             echo "⚠️ Let op: pubDate of enclosure ontbreekt in de feed-output"
           fi
+          echo "📄 Voorbeeld van eerste regels uit een feed:"
+          head -n 20 feeds/*.xml | sed 's/^/    /'
