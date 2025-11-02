@@ -65,11 +65,12 @@ function writeFeeds(sourceUrl, siteKey, items) {
       <pubDate>${pubDate}</pubDate>
       ${item.summary ? `<description><![CDATA[${item.summary}]]></description>` : ''}
       ${item.image ? `<enclosure url="${item.image}" type="image/jpeg" length="0" />` : ''}
+      ${item.image ? `<media:content url="${item.image}" medium="image" />` : ''}
     </item>`;
   }).join('\n');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-  <rss version="2.0">
+  <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
     <channel>
       <title>${siteKey}</title>
       <link>${sourceUrl}</link>
@@ -106,7 +107,8 @@ async function scrapeSite(url, config) {
       const dateStr = config.date ? $(el).find(config.date).text().trim() : '';
       const dateObj = parseDutchDate(dateStr);
       const summary = config.summary ? $(el).find(config.summary).text().trim() : '';
-      const image = config.image ? $(el).find(config.image).attr('src') || '' : '';
+      const rawImg = config.image ? $(el).find(config.image).attr('src') : '';
+      const image = rawImg ? new NodeURL(rawImg, url).href : '';
       if (title && link) {
         items.push({ title, link, date: dateStr, dateObj, summary, image });
       }
