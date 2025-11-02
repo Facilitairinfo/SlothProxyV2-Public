@@ -38,3 +38,12 @@ jobs:
           git add feeds/
           git commit -m "Update feeds [skip ci]" || echo "No changes to commit"
           git push
+
+      - name: Verify feed output
+        run: |
+          echo "🔎 Controleren of pubDate en enclosure aanwezig zijn in een voorbeeldfeed..."
+          if grep -q "<pubDate>" feeds/*.xml && grep -q "<enclosure" feeds/*.xml; then
+            echo "✅ pubDate en enclosure gevonden in feed-bestanden"
+          else
+            echo "⚠️ Let op: pubDate of enclosure ontbreekt in de feed-output"
+          fi
