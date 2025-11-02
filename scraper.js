@@ -93,7 +93,7 @@ async function scrapeSite(url, config) {
         const row = {
           title: item.title,
           content: item.summary || item.link,
-          site: 'CSU',          // of dynamisch: config.siteName
+          site: config.siteName || new NodeURL(url).hostname, // dynamisch
           source: siteKey,
           image: item.image || null,
           created_at: new Date().toISOString()
