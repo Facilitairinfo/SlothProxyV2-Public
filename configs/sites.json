@@ -24,12 +24,12 @@
     "image": "img"
   },
   "https://www.csu.nl/nieuws/": {
-    "list": ".news-overview__item",
-    "title": ".news-overview__title",
-    "link": "a",
-    "date": ".news-overview__date",
-    "summary": ".news-overview__intro",
-    "image": "img"
+  "list": "article.snippet-news",
+  "title": ".snippet-news__title",
+  "link": "a.snippet-news__link",
+  "date": "time.snippet-news__date",
+  "summary": ".snippet-news__meta .snippet-news__category", 
+  "image": "img.snippet-news__image"
   },
   "https://www.cushmanwakefield.com/nl-nl/netherlands/insights": {
     "list": "div.card-insight-body",
