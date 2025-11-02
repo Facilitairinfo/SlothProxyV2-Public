@@ -164,20 +164,4 @@ async function keepAlive() {
   const onlySite = process.env.SITE_TO_TEST;
   const entries = Object.entries(sites);
 
-  if (onlySite) {
-    const hit = entries.find(([u]) => u === onlySite);
-    if (!hit) {
-      console.log(`⚠️ SITE_TO_TEST="${onlySite}" niet gevonden in sites.json`);
-      return;
-    }
-    const [url, config] = hit;
-    console.log(`ℹ️ Running single-site scrape for: ${url}`);
-    await scrapeSite(url, config);
-  } else {
-    for (const [url, config] of entries) {
-      await scrapeSite(url, config);
-    }
-  }
-
-  await keepAlive();
-})();
+  if (onlySite)
