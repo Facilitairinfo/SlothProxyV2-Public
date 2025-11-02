@@ -27,6 +27,24 @@ function buildFeedKey(url) {
   return `${u.host}${pathPart}`.replace(/[^\w]/g, '_');
 }
 
+// Helper: NL maandnamen naar maandnummer
+const nlMonths = {
+  januari: 1, februari: 2, maart: 3, april: 4, mei: 5, juni: 6,
+  juli: 7, augustus: 8, september: 9, oktober: 10, november: 11, december: 12
+};
+
+function parseDutchDate(str) {
+  if (!str) return null;
+  const parts = str.trim().toLowerCase().split(/\s+/);
+  if (parts.length < 3) return null;
+  const day = parseInt(parts[0], 10);
+  const month = nlMonths[parts[1]];
+  const year = parseInt(parts[2], 10);
+  if (!day || !month || !year) return null;
+  const iso = new Date(Date.UTC(year, month - 1, day));
+  return iso.toISOString();
+}
+
 // Helper: schrijf JSON en XML feeds
 function writeFeeds(sourceUrl, siteKey, items) {
   const jsonPath = path.join(feedsDir, `${siteKey}.json`);
@@ -39,6 +57,7 @@ function writeFeeds(sourceUrl, siteKey, items) {
       <title><![CDATA[${item.title}]]></title>
       <link>${item.link}</link>
       <pubDate>${item.date}</pubDate>
+      ${item.summary ? `<description><![CDATA[${item.summary}]]></description>` : ''}
       ${item.image ? `<enclosure url="${item.image}" type="image/jpeg" />` : ''}
     </item>`).join('\n');
 
@@ -93,10 +112,10 @@ async function scrapeSite(url, config) {
         const row = {
           title: item.title,
           content: item.summary || item.link,
-          site: config.siteName || new NodeURL(url).hostname, // dynamisch
+          site: config.siteName || new NodeURL(url).hostname,
           source: siteKey,
           image: item.image || null,
-          created_at: new Date().toISOString()
+          created_at: parseDutchDate(item.date) || new Date().toISOString()
         };
         const { error } = await supabase.from('articles').insert([row]);
         if (error) {
