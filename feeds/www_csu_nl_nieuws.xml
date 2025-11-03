@@ -6,15 +6,6 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
-      <title><![CDATA[Schoonmaken zonder chemie: de BubbleFlush wordt standaard werkwijze bij CSU]]></title>
-      <link>https://www.csu.nl/nieuws/bubbleflush-wordt-standaard-werkwijze-bij-csu-schoonmaken-zonder-chemie/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Innovatie  Persbericht  Duurzaamheid]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/Bubbleflush-2-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/Bubbleflush-2-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
       <title><![CDATA[Duurzame schoonmaak in het regeerakkoord]]></title>
       <link>https://www.csu.nl/nieuws/manifest-duurzame-schoonmaak-in-het-regeerakkoord/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
@@ -111,6 +102,15 @@
       <description><![CDATA[Interview  Samenwerking  Onderwijs]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/08/Een-frisse-start-bij-Zone-College-in-Doetinchem-800x800-1-440x350.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/08/Een-frisse-start-bij-Zone-College-in-Doetinchem-800x800-1-440x350.jpg" medium="image" />
+    </item>
+
+    <item>
+      <title><![CDATA[De eerste dinsdag van september vieren we innovatie en impact op Duurzame Dinsdag!]]></title>
+      <link>https://www.csu.nl/nieuws/de-eerste-dinsdag-van-september-duurzame-dinsdag/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Duurzaamheid]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/08/CSU-nieuwsberichten-Header-mobile-800x500--440x350.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2025/08/CSU-nieuwsberichten-Header-mobile-800x500--440x350.png" medium="image" />
     </item>
     </channel>
   </rss>
