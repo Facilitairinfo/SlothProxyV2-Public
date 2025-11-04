@@ -26,6 +26,24 @@
   "summary": ".snippet-news__meta .snippet-news__category", 
   "image": "img.snippet-news__image"
   },
+  "https://consultancy.nl/nieuws/vakgebied/facility-management": {
+    "siteName": "Consultancy.nl",
+    "list": "div.news-item-info",
+    "title": "span.home-news-item",
+    "link": "a",
+    "summary": "span.home-news-description",
+    "date": "div.news-date-source",
+    "image": "img"
+  },
+  "https://fmn.nl/actueel/podcasts": {
+  "siteName": "FMN Podcasts",
+  "list": "div.fmn-news-item-teaser",
+  "title": "h2.fmn-news-item-teaser__title a",
+  "link": "h2.fmn-news-item-teaser__title a",
+  "summary": "div.fmn-news-item-teaser__teaser",
+  "date": "div.fmn-news-item-teaser__date time",
+  "image": "div.fmn-news-item-teaser__image img"
+  },
   "https://www.cushmanwakefield.com/nl-nl/netherlands/insights": {
     "siteName": "Cushman & Wakefield",
     "list": "div.card-insight-body",
