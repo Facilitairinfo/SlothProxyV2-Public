@@ -96,6 +96,30 @@
     "image": ""
   },
   {
+    "title": "Marketbeat Spain Retail",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
+    "date": "Marta Esclapés • 11/11/2025",
+    "dateObj": null,
+    "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Offices",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/office-marketbeat",
+    "date": "Marta Esclapés • 11/11/2025",
+    "dateObj": null,
+    "summary": "Office Marketbeat is a summary of the Spain office property sector in key cities, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Industrial",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/industrial-marketbeat",
+    "date": "Marta Esclapés • 11/11/2025",
+    "dateObj": null,
+    "summary": "Industrial Marketbeat is a summary of the Spain industrial and logistics property sector providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
     "title": "Marketbeat Spain Living",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/living-marketbeat",
     "date": "Marta Esclapés • 07/11/2025",
@@ -117,38 +141,6 @@
     "date": "Orsolya Hegedűs • 06/11/2025",
     "dateObj": null,
     "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Hungary commercial property activity across office, industrial, retail and hospitality real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
-    "title": "UK London Office Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/london-office-marketbeat",
-    "date": "Kiran Patel • 05/11/2025",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the London office market. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Luxembourg MarketBeat",
-    "link": "https://www.cushmanwakefield.com/fr-lu/luxembourg/insights/luxembourg-marketbeat",
-    "date": "05/11/2025",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Luxembourg commercial property activity across office and retail real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
-    "title": "UK Regional Offices MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/regional-office-marketbeats",
-    "date": "Kiran Patel • 03/11/2025",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the UK office sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "The Netherlands MarketBeat",
-    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/netherlands-marketbeat",
-    "date": "Jos Hesselink • 27/10/2025",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield’s Marketbeat-rapporten bieden een gedetailleerde kwartaalanalyse van de markt voor commercieel vastgoed in Nederland.",
     "image": ""
   },
   {
