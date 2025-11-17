@@ -96,6 +96,22 @@
     "image": ""
   },
   {
+    "title": "Poland MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
+    "title": "Residential MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/residential-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
+    "dateObj": null,
+    "summary": "Get comprehensive insights into Poland's dynamic residential property sector.",
+    "image": ""
+  },
+  {
     "title": "UK Retail Marketbeat Reports",
     "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/retail-marketbeat",
     "date": "Edward Bavister • 17/11/2025",
@@ -128,35 +144,11 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Living",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/living-marketbeat",
-    "date": "Marta Esclapés • 07/11/2025",
-    "dateObj": null,
-    "summary": "Living Marketbeat is a summary of the Spain nursering, PRS, PBSA, BRT and Flex Living property sector providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Slovakia MarketBeat",
-    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/slovakia-marketbeat",
-    "date": "Lukáš Brath • 06/11/2025",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield's MarketBeats analyzes quarterly activities in Slovakia's commercial real estate sector, including office, retail, and industrial properties. This analysis covers trends, supply, demand, and market prices.",
-    "image": ""
-  },
-  {
     "title": "UK London Office Marketbeat Reports",
     "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/london-office-marketbeat",
     "date": "Kiran Patel • 05/11/2025",
     "dateObj": null,
     "summary": "Access the latest quarterly commercial real estate results for the London office market. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Poland MarketBeat",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
-    "date": "Ewa Derlatka-Chilewicz • 27/10/2025",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
     "image": ""
   },
   {
@@ -192,11 +184,11 @@
     "image": ""
   },
   {
-    "title": "Implications of the Homes for London Regulatory Package",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/implications-of-the-homes-for-london-regulatory-package",
-    "date": "Fred Clifford • 29/10/2025",
+    "title": "From shopping to experience",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/from-shopping-to-experience",
+    "date": "Ewa Derlatka-Chilewicz • 03/04/2025",
     "dateObj": null,
-    "summary": "London's development landscape is facing significant challenges.",
+    "summary": "Discover how shopping centers and parks adapt to evolving customer needs, creating spaces that blend convenience, experience, and community.",
     "image": ""
   },
   {
@@ -213,14 +205,6 @@
     "date": "01/07/2024",
     "dateObj": null,
     "summary": "In Cushman & Wakefield’s latest report ‘Unpacking Europe’s Living Revolution’ we analyse the outlook for the living sector to 2040, highlighting the major demographic and societal reasons underpinning its enormous growth potential over the next couple of decades.",
-    "image": ""
-  },
-  {
-    "title": "Rethinking Properties",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/services/rethinking-immobilien-investments",
-    "date": "31/01/2024",
-    "dateObj": null,
-    "summary": "Discover how our strategic rethinking process in the EMEA region helps you unlock the full potential of your commercial property investments. Expert portfolio assessment, scenario-based solutions, and data-driven recommendations.",
     "image": ""
   }
 ]
