@@ -1,10 +1,50 @@
 [
   {
+    "title": "The Netherlands MarketBeat",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/netherlands-marketbeat",
+    "date": "Jos Hesselink • 27/10/2025",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield’s Marketbeat-rapporten bieden een gedetailleerde kwartaalanalyse van de markt voor commercieel vastgoed in Nederland.",
+    "image": ""
+  },
+  {
+    "title": "Supermarktvastgoed: Nieuwe Regels voor een Bewezen Segment",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/supermarket-real-estate-new-rules-for-a-proven-segment",
+    "date": "Michiel Boonen • 18/06/2025",
+    "dateObj": null,
+    "summary": "Lees alles over de ontwikkelingen in het supermarktlandschap in dit rapport van Cushman & Wakefield Retail.",
+    "image": ""
+  },
+  {
+    "title": "Supermarktvastgoed: Nieuwe Regels voor een Bewezen Segment",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/supermarket-real-estate-new-rules-for-a-proven-segment",
+    "date": "Michiel Boonen • 18/06/2025",
+    "dateObj": null,
+    "summary": "Lees alles over de ontwikkelingen in het supermarktlandschap in dit rapport van Cushman & Wakefield Retail.",
+    "image": ""
+  },
+  {
+    "title": "Netherlands Outlook 2025 | Provada Editie",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/netherlands-outlook-provada-edition",
+    "date": "Jos Hesselink • 17/06/2025",
+    "dateObj": null,
+    "summary": "Met de jaarlijkse Outlook levert Cushman & Wakefield een actuele bijdrage aan de kennisbasis voor toekomstbestendig ruimtelijk beleid en strategische marktbeslissingen.",
+    "image": ""
+  },
+  {
     "title": "Winkelhuurprijzen Amsterdam 2023",
     "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/winkelhuurprijzen-amsterdam",
     "date": "22/01/2024",
     "dateObj": null,
     "summary": "Voor u ligt de onderzoeksrapportage “Winkelhuren Amsterdam medio 2023”. In deze rapportage wordt net als in voorgaande jaren een representatief beeld geschetst van de actuele markthuurniveaus van commercieel onroerend goed ten behoeve van winkels en daghoreca in winkelgebieden in Amsterdam.",
+    "image": ""
+  },
+  {
+    "title": "Supermarktvastgoed: Nieuwe Regels voor een Bewezen Segment",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/supermarket-real-estate-new-rules-for-a-proven-segment",
+    "date": "Michiel Boonen • 18/06/2025",
+    "dateObj": null,
+    "summary": "Lees alles over de ontwikkelingen in het supermarktlandschap in dit rapport van Cushman & Wakefield Retail.",
     "image": ""
   },
   {
@@ -24,6 +64,22 @@
     "image": ""
   },
   {
+    "title": "Supermarktvastgoed: Nieuwe Regels voor een Bewezen Segment",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/supermarket-real-estate-new-rules-for-a-proven-segment",
+    "date": "Michiel Boonen • 18/06/2025",
+    "dateObj": null,
+    "summary": "Lees alles over de ontwikkelingen in het supermarktlandschap in dit rapport van Cushman & Wakefield Retail.",
+    "image": ""
+  },
+  {
+    "title": "Netherlands Outlook 2025 | Provada Editie",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/netherlands-outlook-provada-edition",
+    "date": "Jos Hesselink • 17/06/2025",
+    "dateObj": null,
+    "summary": "Met de jaarlijkse Outlook levert Cushman & Wakefield een actuele bijdrage aan de kennisbasis voor toekomstbestendig ruimtelijk beleid en strategische marktbeslissingen.",
+    "image": ""
+  },
+  {
     "title": "The Feminist City",
     "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/feminist-city",
     "date": "07/03/2023",
@@ -37,6 +93,126 @@
     "date": "",
     "dateObj": null,
     "summary": "In de serie 'Value of a City' geven wij maandelijks onze visie op een onderwerp dat te maken heeft met de waarde van de stad. Deze visie komt tot stand vanuit intern onderzoek en dialoog met interne en externe stakeholders, in nauwe samenwerking met consultants en analisten uit ons Real Estate Strategy & Innovation team.",
+    "image": ""
+  },
+  {
+    "title": "UK Hospitality Marketbeat Reports",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/hospitality-marketbeat",
+    "date": "Bořivoj Vokřínek • 20/11/2025",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the UK hospitality sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "UK Investment Marketbeat Reports",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/investment-marketbeat",
+    "date": "Daryl Perry • 19/11/2025",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the investment market nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "UK Economy & Housing Marketbeat Reports",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/economy-and-housing-marketbeat",
+    "date": "Daryl Perry • 19/11/2025",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the investment market nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "Residential MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/residential-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
+    "dateObj": null,
+    "summary": "Get comprehensive insights into Poland's dynamic residential property sector.",
+    "image": ""
+  },
+  {
+    "title": "Poland MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
+    "title": "UK Retail Marketbeat Reports",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/retail-marketbeat",
+    "date": "Edward Bavister • 17/11/2025",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the UK retail sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Retail",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
+    "date": "Marta Esclapés • 11/11/2025",
+    "dateObj": null,
+    "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
+    "image": ""
+  },
+  {
+    "title": "UK London Office Marketbeat Reports",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/london-office-marketbeat",
+    "date": "Kiran Patel • 05/11/2025",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the London office market. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "Main Streets Across the world 2025",
+    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/main-streets-across-the-world",
+    "date": "Thomas Casolo • 19/11/2025",
+    "dateObj": null,
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "A Strategic Roadmap for Solar PV in Logistics & Industrial Real Estate",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/a-strategic-roadmap-for-solar-pv-in-logistics-and-industrial-real-estate",
+    "date": "Edward Bavister • 11/11/2025",
+    "dateObj": null,
+    "summary": "Unlock the financial and environmental benefits of solar PV with actionable best practices for developers, landlords, and occupiers.",
+    "image": ""
+  },
+  {
+    "title": "Making Solar Pay: The Financial Case for Energy-Intensive Occupiers",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/the-financial-case-for-energy-intensive-occupiers",
+    "date": "07/11/2025",
+    "dateObj": null,
+    "summary": "Explore the compelling financial case for solar PV in commercial real estate. Learn how large, energy-intensive buildings achieve high IRR and fast payback periods.",
+    "image": ""
+  },
+  {
+    "title": "From shopping to experience",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/from-shopping-to-experience",
+    "date": "Ewa Derlatka-Chilewicz • 03/04/2025",
+    "dateObj": null,
+    "summary": "Discover how shopping centers and parks adapt to evolving customer needs, creating spaces that blend convenience, experience, and community.",
+    "image": ""
+  },
+  {
+    "title": "Quo Vadis E-commerce 2024",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/quo-vadis-e-commerce",
+    "date": "14/11/2024",
+    "dateObj": null,
+    "summary": "We’re excited to present our latest report, “Quo Vadis E-commerce 2024”, which explores the evolving trends and dynamics of the e-commerce market.",
+    "image": ""
+  },
+  {
+    "title": "European Living Revolution",
+    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/european-living-revolution",
+    "date": "01/07/2024",
+    "dateObj": null,
+    "summary": "In Cushman & Wakefield’s latest report ‘Unpacking Europe’s Living Revolution’ we analyse the outlook for the living sector to 2040, highlighting the major demographic and societal reasons underpinning its enormous growth potential over the next couple of decades.",
+    "image": ""
+  },
+  {
+    "title": "Main Streets Across the World 2025",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/main-streets-across-the-world",
+    "date": "",
+    "dateObj": null,
+    "summary": "",
     "image": ""
   }
 ]
