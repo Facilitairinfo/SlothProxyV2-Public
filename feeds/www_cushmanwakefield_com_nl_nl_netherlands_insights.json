@@ -120,19 +120,19 @@
     "image": ""
   },
   {
-    "title": "Residential MarketBeat",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/residential-marketbeat",
-    "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
-    "dateObj": null,
-    "summary": "Get comprehensive insights into Poland's dynamic residential property sector.",
-    "image": ""
-  },
-  {
     "title": "Poland MarketBeat",
     "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
     "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
     "dateObj": null,
     "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
+    "title": "Residential MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/residential-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
+    "dateObj": null,
+    "summary": "Get comprehensive insights into Poland's dynamic residential property sector.",
     "image": ""
   },
   {
@@ -157,62 +157,6 @@
     "date": "Kiran Patel • 05/11/2025",
     "dateObj": null,
     "summary": "Access the latest quarterly commercial real estate results for the London office market. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Main Streets Across the world 2025",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/main-streets-across-the-world",
-    "date": "Thomas Casolo • 19/11/2025",
-    "dateObj": null,
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "A Strategic Roadmap for Solar PV in Logistics & Industrial Real Estate",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/a-strategic-roadmap-for-solar-pv-in-logistics-and-industrial-real-estate",
-    "date": "Edward Bavister • 11/11/2025",
-    "dateObj": null,
-    "summary": "Unlock the financial and environmental benefits of solar PV with actionable best practices for developers, landlords, and occupiers.",
-    "image": ""
-  },
-  {
-    "title": "Making Solar Pay: The Financial Case for Energy-Intensive Occupiers",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/the-financial-case-for-energy-intensive-occupiers",
-    "date": "07/11/2025",
-    "dateObj": null,
-    "summary": "Explore the compelling financial case for solar PV in commercial real estate. Learn how large, energy-intensive buildings achieve high IRR and fast payback periods.",
-    "image": ""
-  },
-  {
-    "title": "From shopping to experience",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/from-shopping-to-experience",
-    "date": "Ewa Derlatka-Chilewicz • 03/04/2025",
-    "dateObj": null,
-    "summary": "Discover how shopping centers and parks adapt to evolving customer needs, creating spaces that blend convenience, experience, and community.",
-    "image": ""
-  },
-  {
-    "title": "Quo Vadis E-commerce 2024",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/quo-vadis-e-commerce",
-    "date": "14/11/2024",
-    "dateObj": null,
-    "summary": "We’re excited to present our latest report, “Quo Vadis E-commerce 2024”, which explores the evolving trends and dynamics of the e-commerce market.",
-    "image": ""
-  },
-  {
-    "title": "European Living Revolution",
-    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/european-living-revolution",
-    "date": "01/07/2024",
-    "dateObj": null,
-    "summary": "In Cushman & Wakefield’s latest report ‘Unpacking Europe’s Living Revolution’ we analyse the outlook for the living sector to 2040, highlighting the major demographic and societal reasons underpinning its enormous growth potential over the next couple of decades.",
-    "image": ""
-  },
-  {
-    "title": "Main Streets Across the World 2025",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/main-streets-across-the-world",
-    "date": "",
-    "dateObj": null,
-    "summary": "",
     "image": ""
   }
 ]
