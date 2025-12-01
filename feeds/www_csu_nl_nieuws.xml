@@ -6,6 +6,24 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[CSU bereikt hoogste PSO-trede: samen maken we het verschil!]]></title>
+      <link>https://www.csu.nl/nieuws/csu-bereikt-hoogste-pso-trede-samen-maken-we-het-verschil/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Mens  Duurzaamheid]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-bereikt-hoogste-PSO-trede-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-bereikt-hoogste-PSO-trede-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
+      <title><![CDATA[Kan schoonmaken nóg schoner?]]></title>
+      <link>https://www.csu.nl/nieuws/kan-schoonmaken-nog-schoner/</link>
+      <pubDate>Thu, 27 Nov 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Duurzaamheid]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/Ontwerp-zonder-titel-1-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/Ontwerp-zonder-titel-1-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Collega’s Shirley en Thaisa te zien in nieuwe Brainport campagne]]></title>
       <link>https://www.csu.nl/nieuws/collegas-shirley-en-thaisa-te-zien-in-nieuwe-brainport-campagne/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
@@ -93,24 +111,6 @@
       <description><![CDATA[Persbericht  Samenwerking  Hospitality]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/09/CSU-blijft-verantwoordelijk-voor-de-schoonmaakdienstverlening-bij-Koninklijke-Jaarbeurs-in-Utrecht-800x800-1-440x350.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/09/CSU-blijft-verantwoordelijk-voor-de-schoonmaakdienstverlening-bij-Koninklijke-Jaarbeurs-in-Utrecht-800x800-1-440x350.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Niels van Geenhuizen genomineerd voor MVO Manager van het Jaar 2025]]></title>
-      <link>https://www.csu.nl/nieuws/niels-van-geenhuizen-genomineerd-voor-mvo-manager-van-het-jaar-2025/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Interview  Samenwerking  Onderwijs]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/09/CSU-header-mobile-800x500-1-440x350.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/09/CSU-header-mobile-800x500-1-440x350.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Ook dit jaar weer kinderen van schoonmaakcollega’s de sterren op Qmusic]]></title>
-      <link>https://www.csu.nl/nieuws/ook-dit-jaar-weer-kinderen-van-schoonmaakcollegas-de-sterren-op-qmusic/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Samenwerking]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2024/08/CSU-nieuwsbericht-Qmusic-campagne-2024-800x800-1-440x350.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2024/08/CSU-nieuwsbericht-Qmusic-campagne-2024-800x800-1-440x350.jpg" medium="image" />
     </item>
     </channel>
   </rss>
