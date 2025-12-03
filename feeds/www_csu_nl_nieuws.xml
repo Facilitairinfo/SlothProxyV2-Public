@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[John van Hoof neemt afscheid van Total Care]]></title>
+      <link>https://www.csu.nl/nieuws/john-van-hoof-neemt-afscheid-van-total-care/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/12/mobile-800x500-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2025/12/mobile-800x500-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[CSU bereikt hoogste PSO-trede: samen maken we het verschil!]]></title>
       <link>https://www.csu.nl/nieuws/csu-bereikt-hoogste-pso-trede-samen-maken-we-het-verschil/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/09/Schermafbeelding-2025-09-25-164848-340x200.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/09/Schermafbeelding-2025-09-25-164848-340x200.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[CSU blijft verantwoordelijk voor de schoonmaakdienstverlening bij Koninklijke Jaarbeurs in Utrecht]]></title>
-      <link>https://www.csu.nl/nieuws/csu-blijft-verantwoordelijk-voor-de-schoonmaakdienstverlening-bij-koninklijke-jaarbeurs-in-utrecht/</link>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Persbericht  Samenwerking  Hospitality]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/09/CSU-blijft-verantwoordelijk-voor-de-schoonmaakdienstverlening-bij-Koninklijke-Jaarbeurs-in-Utrecht-800x800-1-440x350.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/09/CSU-blijft-verantwoordelijk-voor-de-schoonmaakdienstverlening-bij-Koninklijke-Jaarbeurs-in-Utrecht-800x800-1-440x350.jpg" medium="image" />
     </item>
     </channel>
   </rss>
