@@ -120,27 +120,19 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Portugal Investment",
-    "link": "https://www.cushmanwakefield.com/pt-pt/portugal/insights/marketbeat-portugal/investment-marketbeats",
-    "date": "Ana Gomes • 01/12/2025",
-    "dateObj": null,
-    "summary": "MarketBeat Portugal Investment Report provides insights into investment trends, market activity, yields and sector performance across commercial real estate.",
-    "image": ""
-  },
-  {
-    "title": "Marketbeat Portugal Industrial",
-    "link": "https://www.cushmanwakefield.com/pt-pt/portugal/insights/marketbeat-portugal/industrial-marketbeats",
-    "date": "Ana Gomes • 01/12/2025",
-    "dateObj": null,
-    "summary": "MarketBeat Industrial Portugal highlights demand, vacancy, rents and future supply in a resilient, supply-constrained market. Read the full analysis today.",
-    "image": ""
-  },
-  {
     "title": "Marketbeat Spain Retail",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
     "date": "Marta Esclapés • 27/11/2025",
     "dateObj": null,
     "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Living",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/living-marketbeat",
+    "date": "Marta Esclapés • 07/11/2025",
+    "dateObj": null,
+    "summary": "Living Marketbeat is a summary of the Spain nursering, PRS, PBSA, BRT and Flex Living property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
