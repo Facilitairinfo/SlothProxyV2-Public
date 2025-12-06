@@ -104,22 +104,6 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Portugal Retail",
-    "link": "https://www.cushmanwakefield.com/pt-pt/portugal/insights/marketbeat-portugal/retail-marketbeats",
-    "date": "Ana Gomes • 01/12/2025",
-    "dateObj": null,
-    "summary": "MarketBeat Portugal Retail Report provides insights into retail market trends, demand, rents and development activity across key formats nationwide.",
-    "image": ""
-  },
-  {
-    "title": "Marketbeat Porto Office",
-    "link": "https://www.cushmanwakefield.com/pt-pt/portugal/insights/marketbeat-portugal/porto-office-marketbeats",
-    "date": "Ana Gomes • 01/12/2025",
-    "dateObj": null,
-    "summary": "MarketBeat Porto Office Report with insights on demand, vacancy, rents, and development trends shaping the market. Read the latest outlook today.",
-    "image": ""
-  },
-  {
     "title": "Marketbeat Spain Retail",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
     "date": "Marta Esclapés • 27/11/2025",
@@ -144,51 +128,43 @@
     "image": ""
   },
   {
-    "title": "Reimagining Workplaces",
-    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/reimagining-the-workplace",
-    "date": "05/12/2025",
+    "title": "Operator Beat – Europe 2023",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/europe-hotel-operator-beat",
+    "date": "30/10/2023",
     "dateObj": null,
-    "summary": "Workplaces now serve a purpose far beyond providing desks. They shape culture, support collaboration and act as strategic assets that fuel organizational growth.",
+    "summary": "The Operator Beat surveys were conducted among over 195 senior executives of leading hotel operators active in Europe.",
     "image": ""
   },
   {
-    "title": "German Investment Market in Recovery Mode",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/german-investment-market-recovery",
-    "date": "02/12/2025",
+    "title": "The investment market in Belgium",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/investment-market-in-belgium",
+    "date": "21/03/2023",
     "dateObj": null,
-    "summary": "Stabilised interest rates, rising capital commitments and attractive risk premiums point to the beginning of an upturn in the German commercial investment market.",
+    "summary": "Discover our regular update on commercial real estate investment in Belgium for office, retail, industrial and logistics.",
     "image": ""
   },
   {
-    "title": "Autumn Budget: Implications for real estate",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/autumn-budget-implications-for-real-estate",
-    "date": "Daryl Perry • 27/11/2025",
+    "title": "The Belgian industrial and logistics market",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/the-belgian-industrial-and-logistics-market",
+    "date": "15/12/2022",
     "dateObj": null,
-    "summary": "The well-documented tightening that the Chancellor had to go through was always going to make this a difficult Budget in order to comply with her fiscal rules – with headroom of just £9.9 billion left at the last budget.",
+    "summary": "Some updated insights on the Belgian industrial and logistics market.",
     "image": ""
   },
   {
-    "title": "European Investment Atlas",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/european-investment-atlas",
-    "date": "Aymeric Sevestre • 25/11/2025",
+    "title": "The future of the Belgian office market",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/covid19-and-the-belgian-office-market",
+    "date": "Antoine Brusselmans • 16/11/2022",
     "dateObj": null,
-    "summary": "",
+    "summary": "Some updated insights on the Belgian office market.",
     "image": ""
   },
   {
-    "title": "Main Streets Across the world 2025",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/main-streets-across-the-world",
-    "date": "Thomas Casolo • 19/11/2025",
+    "title": "The Brussels Office Districts",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/brussels-office-districts",
+    "date": "31/03/2022",
     "dateObj": null,
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Main Streets Across the World 2025",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/main-streets-across-the-world",
-    "date": "",
-    "dateObj": null,
-    "summary": "",
+    "summary": "Some insights on the actual situation of the main office districts in Brussels as well as some previsions for future occupiers and investors on how these areas will perform in terms of leasing and investment.",
     "image": ""
   }
 ]
