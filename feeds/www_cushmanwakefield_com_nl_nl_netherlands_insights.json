@@ -104,14 +104,6 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Retail",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
-    "date": "Marta Esclapés • 27/11/2025",
-    "dateObj": null,
-    "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
-    "image": ""
-  },
-  {
     "title": "Marketbeat Spain Living",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/living-marketbeat",
     "date": "Marta Esclapés • 07/11/2025",
@@ -125,6 +117,14 @@
     "date": "Lukáš Brath • 06/11/2025",
     "dateObj": null,
     "summary": "Cushman & Wakefield's MarketBeats analyzes quarterly activities in Slovakia's commercial real estate sector, including office, retail, and industrial properties. This analysis covers trends, supply, demand, and market prices.",
+    "image": ""
+  },
+  {
+    "title": "Hospitality MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/hospitality-marketbeat",
+    "date": "Maciej Prończuk • 28/03/2025",
+    "dateObj": null,
+    "summary": "Hospitality MarketBeat report analyses quarterly Poland commercial property activity across hotel sector including supply, demand and pricing trends at the market and submarket levels.",
     "image": ""
   },
   {
