@@ -6,6 +6,15 @@
       <description>Feed for www_cfpb_nl_actueel</description>
       
     <item>
+      <title><![CDATA[Lees verder Podcast over drukte op kantoor]]></title>
+      <link>https://www.cfpb.nl/actueel/podcast-over-drukte-op-kantoor</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Wat bepaalt of het druk is op kantoor? Op het eerste gezicht is het antwoord eenvoudig: wanneer er veel mensen aanwezig zijn. Onderzoek leert echter dat het een stuk ingewikkelder ligt. In de podcast Werkgelukt legt CFPB-onderzoeker Gijs Brouwers uit dat sociale en persoonlijke aspecten eveneens een belangrijke rol spelen bij het ervaren van drukte in de werkomgeving.Lees verder]]></description>
+      <enclosure url="https://www.cfpb.nl/storage/media/2025/12/09/modules/blogs/overview/jpg/gijs-podcast-437.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.cfpb.nl/storage/media/2025/12/09/modules/blogs/overview/jpg/gijs-podcast-437.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Lees verder The Workplace Game: met je team in gesprek]]></title>
       <link>https://www.cfpb.nl/actueel/the-workplace-game-met-je-team-in-gesprek</link>
       <pubDate>Mon, 24 Nov 2025 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Mensen willen zich herkennen in de hybride werkomgeving. Dat is één van de belangrijke conclusies die CFPB-directeur Jacqueline Schlangen naar voren brengt in het NVM-rapport over de kantorenmarkt.Lees verder]]></description>
       <enclosure url="https://www.cfpb.nl/storage/media/2025/04/03/modules/blogs/overview/jpg/nvm-kantorenmarkt-2025-1-230.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.cfpb.nl/storage/media/2025/04/03/modules/blogs/overview/jpg/nvm-kantorenmarkt-2025-1-230.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Lees verder Nieuwe CFPB-onderzoeker: Yuri Martens]]></title>
-      <link>https://www.cfpb.nl/actueel/nieuwe-cfpb-onderzoeker-yuri-martens</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Sinds 1 maart werkt Yuri Martens als senior-onderzoeker bij het CFPB. Daarmee breiden we ons team uit met een ervaren kracht op het gebied van mens, werk en werkomgeving.Lees verder]]></description>
-      <enclosure url="https://www.cfpb.nl/storage/media/2025/03/17/modules/blogs/overview/jpg/portretfoto-yuri-martens-17032025-228.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.cfpb.nl/storage/media/2025/03/17/modules/blogs/overview/jpg/portretfoto-yuri-martens-17032025-228.jpg" medium="image" />
     </item>
     </channel>
   </rss>
