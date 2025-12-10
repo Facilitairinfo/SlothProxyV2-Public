@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Schoonmaken bij GGZ Rivierduinen: intensief maar betekenisvol]]></title>
+      <link>https://www.csu.nl/nieuws/schoonmaken-bij-ggz-rivierduinen-intensief-maar-betekenisvol/</link>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Zorg  Samenwerking]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/Schoonmaken-bij-GGZ-Rivierduinen-intensief-maar-betekenisvol-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/Schoonmaken-bij-GGZ-Rivierduinen-intensief-maar-betekenisvol-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[John van Hoof neemt afscheid van Total Care]]></title>
       <link>https://www.csu.nl/nieuws/john-van-hoof-neemt-afscheid-van-total-care/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Interview  Samenwerking]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/09/Familiebedrijven-De-Goudse-en-CSU-werken-al-bijna-20-jaar-samen-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/09/Familiebedrijven-De-Goudse-en-CSU-werken-al-bijna-20-jaar-samen-800x800-1-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Onze manager duurzaamheid, Niels van Geenhuizen, in de spotlight bij Change Inc.]]></title>
-      <link>https://www.csu.nl/nieuws/onze-manager-duurzaamheid-in-de-spotlight-bij-change-inc/</link>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 GMT</pubDate>
-      
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/09/Schermafbeelding-2025-09-25-164848-340x200.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/09/Schermafbeelding-2025-09-25-164848-340x200.png" medium="image" />
     </item>
     </channel>
   </rss>
