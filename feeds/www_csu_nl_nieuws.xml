@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Total Care - Omzien door vooruit te kijken]]></title>
+      <link>https://www.csu.nl/nieuws/total-care-omzien-door-vooruit-te-kijken/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Persbericht]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/12/Total-Care-logo-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2025/12/Total-Care-logo-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Schoonmaken bij GGZ Rivierduinen: intensief maar betekenisvol]]></title>
       <link>https://www.csu.nl/nieuws/schoonmaken-bij-ggz-rivierduinen-intensief-maar-betekenisvol/</link>
       <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Persbericht  Samenwerking  Duurzaamheid]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/Samenwerking-CSU-Asito-en-Gom-wint-European-Cleaning-Hygiene-Award-2025-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/Samenwerking-CSU-Asito-en-Gom-wint-European-Cleaning-Hygiene-Award-2025-800x800-1-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Partnerschap tandartsketen Colosseum Dental en CSU- Samenwerking met een glimlach]]></title>
-      <link>https://www.csu.nl/nieuws/partnerschap-tandartsketen-colosseum-dental-en-csu/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Klantverhalen  Samenwerking  Interview]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/Ontwerp-zonder-titel-1-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/Ontwerp-zonder-titel-1-340x200.jpg" medium="image" />
     </item>
     </channel>
   </rss>
