@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Total Care reduceert fors CO₂: 17,2% minder in 2024, mooie stappen in 2025, focus op vooruit]]></title>
+      <link>https://www.csu.nl/nieuws/total-care-reduceert-fors-co%e2%82%82-172-minder-in-2024-mooie-stappen-in-2025-focus-op-vooruit/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Duurzaamheid]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/12/Ontwerp-zonder-titel-5-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2025/12/Ontwerp-zonder-titel-5-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Total Care - Omzien door vooruit te kijken]]></title>
       <link>https://www.csu.nl/nieuws/total-care-omzien-door-vooruit-te-kijken/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Blog  Mens]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/Natalie-Sandmann-MeewerkWeek-TerGooi-MC-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/Natalie-Sandmann-MeewerkWeek-TerGooi-MC-800x800-1-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Asito, CSU en Gom winnen European Cleaning & Hygiene Award 2025 – Best Practice Service Provider]]></title>
-      <link>https://www.csu.nl/nieuws/asito-csu-en-gom-winnen-european-cleaning-hygiene-award-2025-best-practice-service-provider/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Persbericht  Samenwerking  Duurzaamheid]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/Samenwerking-CSU-Asito-en-Gom-wint-European-Cleaning-Hygiene-Award-2025-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/Samenwerking-CSU-Asito-en-Gom-wint-European-Cleaning-Hygiene-Award-2025-800x800-1-340x200.jpg" medium="image" />
     </item>
     </channel>
   </rss>
