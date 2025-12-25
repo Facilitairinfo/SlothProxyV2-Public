@@ -12,5 +12,10 @@
         "ms-playwright.playwright"
       ]
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/codespaces-prebuilds:1": {
+      "enabled": false
+    }
   }
 }
