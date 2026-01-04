@@ -1,2 +1,3 @@
+# Blokkeer alle crawlers om feed scraping te voorkomen
 User-agent: *
 Disallow: /
