@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[CSU voor de dertiende keer op rij Top Employer]]></title>
+      <link>https://www.csu.nl/nieuws/csu-voor-de-dertiende-keer-op-rij-top-employer/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Mens]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/01/CSU-Top-Employer-2026-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/01/CSU-Top-Employer-2026-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Total Care reduceert fors CO₂: 17,2% minder in 2024, mooie stappen in 2025, focus op vooruit]]></title>
       <link>https://www.csu.nl/nieuws/total-care-reduceert-fors-co%e2%82%82-172-minder-in-2024-mooie-stappen-in-2025-focus-op-vooruit/</link>
       <pubDate>Wed, 17 Dec 2025 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Interview  Mens]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/CSU-in-de-Top-25-Inclusieve-Ondernemers-2025-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/CSU-in-de-Top-25-Inclusieve-Ondernemers-2025-800x800-1-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Commercieel directeur Natalie Sandmann liep een dagje mee in Tergooi MC]]></title>
-      <link>https://www.csu.nl/nieuws/commercieel-directeur-natalie-sandmann-liep-een-dagje-mee-in-tergooi-mc/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Blog  Mens]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/Natalie-Sandmann-MeewerkWeek-TerGooi-MC-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/Natalie-Sandmann-MeewerkWeek-TerGooi-MC-800x800-1-340x200.jpg" medium="image" />
     </item>
     </channel>
   </rss>
