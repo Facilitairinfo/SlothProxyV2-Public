@@ -136,11 +136,11 @@
     "image": ""
   },
   {
-    "title": "CEE Retail MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
-    "date": "Marie Baláčová • 15/12/2025",
+    "title": "Poland MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 17/11/2025",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) retail sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
     "image": ""
   },
   {
@@ -149,6 +149,14 @@
     "date": "Kamila Breen • 30/10/2025",
     "dateObj": null,
     "summary": "MarketBeat reports analyse quarterly Czech Republic commercial property activity across office, retail, industrial and hotel real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
+    "title": "Stamp Duty Calculator",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/stamp-duty-calculator",
+    "date": "20/01/2026",
+    "dateObj": null,
+    "summary": "Calculate commercial stamp duty (SDLT) for UK property purchases with Cushman & Wakefield's free calculator. Covers England, Scotland, Wales & NI",
     "image": ""
   },
   {
@@ -205,14 +213,6 @@
     "date": "Pascale Philippe • 04/12/2024",
     "dateObj": null,
     "summary": "For the 10st consecutive year, Cushman & Wakefield publishes its maps of rental values for office space by metro station in Paris, Lyon and Marseille. For each metro station, these values correspond to the average rental values for offices >100 sqm available immediately and in 2025. These values exclude charges and taxes and are weighted by surface area.",
-    "image": ""
-  },
-  {
-    "title": "Main Streets Across the World 2025",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/main-streets-across-the-world",
-    "date": "",
-    "dateObj": null,
-    "summary": "",
     "image": ""
   }
 ]
