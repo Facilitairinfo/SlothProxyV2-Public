@@ -136,19 +136,19 @@
     "image": ""
   },
   {
-    "title": "Dublin MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/ireland/insights/dublin-marketbeat",
-    "date": "Tom McCabe • 26/01/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyze quarterly economic and commercial real estate activity including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
     "title": "Logistics Real Estate in France: Market Update",
     "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-logistique",
     "date": "Romain Nicolle • 23/01/2026",
     "dateObj": null,
     "summary": "In our Marketbeats and Flashs, we cover French logistics markets and sub-markets quarterly. We analyze KPIs and dimensions in the market.",
+    "image": ""
+  },
+  {
+    "title": "CRE Investment in France: Market Update",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-investissement",
+    "date": "Aymeric Sevestre • 22/10/2025",
+    "dateObj": null,
+    "summary": "Marketbeat Investissement market reports analyse activity in the French property investment market, taking into account volumes committed across all asset types",
     "image": ""
   },
   {
