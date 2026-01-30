@@ -136,19 +136,19 @@
     "image": ""
   },
   {
-    "title": "Poland MarketBeat",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
-    "date": "Ewa Derlatka-Chilewicz • 20/01/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
     "title": "Office Real Estate MarketBeat in Aix-Marseille Region",
     "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-aix-marseille",
     "date": "Lucile De Malet • 17/10/2025",
     "dateObj": null,
     "summary": "The Office Marketbeat Aix-Marseille region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
+    "image": ""
+  },
+  {
+    "title": "France MarketBeat Residential",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-residential",
+    "date": "Alexandra Paulin • 28/05/2024",
+    "dateObj": null,
+    "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
     "image": ""
   },
   {
