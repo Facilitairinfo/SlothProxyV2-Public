@@ -96,38 +96,6 @@
     "image": ""
   },
   {
-    "title": "Sweden MarketBeat",
-    "link": "https://www.cushmanwakefield.com/sv-se/sweden/insights/sweden-marketbeat",
-    "date": "30/01/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Sweden commercial property activity across office, retail and logistics sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
-    "title": "The Netherlands MarketBeat",
-    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/netherlands-marketbeat",
-    "date": "Jos Hesselink • 28/01/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield’s Marketbeat-rapporten bieden een gedetailleerde kwartaalanalyse van de markt voor commercieel vastgoed in Nederland.",
-    "image": ""
-  },
-  {
-    "title": "Czech Republic Industrial MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat/industrial-marketbeat",
-    "date": "Kamila Breen • 28/01/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Czech Republic's industrial sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Czech Republic Hospitality MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat/hospitality-marketbeat",
-    "date": "Kamila Breen • 26/01/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Czech Republic's hospitality sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
     "title": "Logistics Real Estate in France: Market Update",
     "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-logistique",
     "date": "Romain Nicolle • 23/01/2026",
@@ -136,11 +104,27 @@
     "image": ""
   },
   {
-    "title": "Office Real Estate MarketBeat in Aix-Marseille Region",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-aix-marseille",
-    "date": "Lucile De Malet • 17/10/2025",
+    "title": "CEE Office MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/office-marketbeat",
+    "date": "Marie Baláčová • 15/12/2025",
     "dateObj": null,
-    "summary": "The Office Marketbeat Aix-Marseille region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
+    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) office sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "CEE Retail MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
+    "date": "Marie Baláčová • 15/12/2025",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) retail sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "CEE Industrial MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/industrial-marketbeat",
+    "date": "Marie Baláčová • 15/12/2025",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) industrial sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
     "image": ""
   },
   {
@@ -152,35 +136,83 @@
     "image": ""
   },
   {
-    "title": "Office Fit Out Cost Guide",
-    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/office-fit-out-cost-guide",
-    "date": "23/05/2025",
+    "title": "REAL ESTATE \"Hospitality\": MARKET UPDATE Greater Paris region",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-operator-beat-hospitality",
+    "date": "16/04/2024",
     "dateObj": null,
-    "summary": "Optimaliseer het potentieel van uw kantoorruimte in Nederland met onze Kostengids voor Kantoorinrichting 2025. Begin vandaag nog uw reis naar een efficiëntere en innovatievere werkruimte in steden zoals Amsterdam en Rotterdam!",
+    "summary": "The Study « Hospitality Operator Beat France » analyses the areas of interest and development perspectives of hotel industry operators in France.",
     "image": ""
   },
   {
-    "title": "Playgrounds of Tomorrow",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/playgrounds-of-tomorrow",
-    "date": "Dominic Bouvet • 03/06/2024",
-    "dateObj": null,
-    "summary": "Access our Playgrounds of Tomorrow report into the UK’s Experiential Leisure market. Our research analyses the demand drivers for experiential leisure, discusses future supply trends and evaluates how experiential leisure can complement wider placemaking schemes.",
-    "image": ""
-  },
-  {
-    "title": "Office Fit Out Cost Guide",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/office-fit-out-cost-guide",
-    "date": "03/04/2023",
-    "dateObj": null,
-    "summary": "Een office fit out verwijst naar het proces van het ontwerpen en bouwen van een kantoorruimte om te voldoen aan de specifieke behoeften van de gebruiker. Dit kan alles omvatten, van meubilair en apparatuur tot mechanische en elektrische systemen.",
-    "image": ""
-  },
-  {
-    "title": "Belgium Office Fit Out Cost Guide",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/office-fit-out-cost-guide",
+    "title": "MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat",
     "date": "",
     "dateObj": null,
-    "summary": "Refine your office environment in Belgium with our Office Fit Out Cost Guide 2024. Begin the transformation of your workspace in historic yet forward-looking cities like Brussels today!",
+    "summary": "Quarterly market figures and trends in Germany and its top real estate markets. Short, concise and to the point.",
+    "image": ""
+  },
+  {
+    "title": "What you need to know about commercial real estate market",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/what-you-need-to-know-about-commercial-real-estate-market",
+    "date": "Marie Baláčová • 23/01/2026",
+    "dateObj": null,
+    "summary": "Explore our real estate market snapshot, a video overview of the commercial real estate market developments presenting the key trends in real estate investment, logistics, office, retail and hospitality sectors.",
+    "image": ""
+  },
+  {
+    "title": "The Investment Atlas Q3 2024",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/investment-atlas",
+    "date": "05/11/2024",
+    "dateObj": null,
+    "summary": "Your Strategic Compass in the World of Commercial Real Estate Investment",
+    "image": ""
+  },
+  {
+    "title": "European Logistics Update",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/european-logistics-update",
+    "date": "Kamila Breen • 04/10/2024",
+    "dateObj": null,
+    "summary": "Explore the latest H1 2024 trends in the European logistics real estate market with Cushman & Wakefield's comprehensive update.",
+    "image": ""
+  },
+  {
+    "title": "European Food Halls",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/european-food-halls",
+    "date": "26/07/2024",
+    "dateObj": null,
+    "summary": "Recently, Spain has witnessed a surge in high-end food halls, with various examples in big cities such as Madrid or Barcelona.",
+    "image": ""
+  },
+  {
+    "title": "European Living Revolution",
+    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/european-living-revolution",
+    "date": "01/07/2024",
+    "dateObj": null,
+    "summary": "In Cushman & Wakefield’s latest report ‘Unpacking Europe’s Living Revolution’ we analyse the outlook for the living sector to 2040, highlighting the major demographic and societal reasons underpinning its enormous growth potential over the next couple of decades.",
+    "image": ""
+  },
+  {
+    "title": "European High Streets Ranking",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/mytraffic-european-high-streets-ranking",
+    "date": "19/07/2023",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield and Mytraffic, the European leader in location analysis, released their 3rd edition of their report about the European High Streets Ranking. It analyzes the traffic of the main commercial streets in Europe between May 2022 and June 2023.",
+    "image": ""
+  },
+  {
+    "title": "Rent burden and real estate investment",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/umfrage-mietbelastung-civey",
+    "date": "25/04/2022",
+    "dateObj": null,
+    "summary": "Germany is a rental market. And with around 42.8 million households and a home ownership rate of only about 50 percent, it is actually the largest in Europe.",
+    "image": ""
+  },
+  {
+    "title": "Workplace Ecosystems of the Future",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/the-future-of-workplace",
+    "date": "David Smith • 21/12/2020",
+    "dateObj": null,
+    "summary": "In this report, we examine what the future of the office will look like in a post-COVID-19 world by exploring investor, occupier and placemaker feedback and analyze historical work from home (WFH) penetration rates.",
     "image": ""
   }
 ]
