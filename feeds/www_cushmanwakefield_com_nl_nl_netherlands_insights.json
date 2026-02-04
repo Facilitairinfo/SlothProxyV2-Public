@@ -128,14 +128,6 @@
     "image": ""
   },
   {
-    "title": "CEE Office MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/office-marketbeat",
-    "date": "Marie Baláčová • 15/12/2025",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) office sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
     "title": "CEE Retail MarketBeat Reports",
     "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
     "date": "Marie Baláčová • 15/12/2025",
@@ -144,11 +136,19 @@
     "image": ""
   },
   {
-    "title": "CEE Industrial MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/industrial-marketbeat",
+    "title": "CEE Office MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/office-marketbeat",
     "date": "Marie Baláčová • 15/12/2025",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) industrial sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) office sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "Slovakia MarketBeat",
+    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/slovakia-marketbeat",
+    "date": "Lukáš Brath • 06/11/2025",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield's MarketBeats analyzes quarterly activities in Slovakia's commercial real estate sector, including office, retail, and industrial properties. This analysis covers trends, supply, demand, and market prices.",
     "image": ""
   },
   {
@@ -157,14 +157,6 @@
     "date": "Alexandra Paulin • 28/05/2024",
     "dateObj": null,
     "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
-    "image": ""
-  },
-  {
-    "title": "MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Quarterly market figures and trends in Germany and its top real estate markets. Short, concise and to the point.",
     "image": ""
   },
   {
