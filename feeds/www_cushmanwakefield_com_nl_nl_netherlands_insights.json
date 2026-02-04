@@ -96,6 +96,14 @@
     "image": ""
   },
   {
+    "title": "Slovakia MarketBeat",
+    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/slovakia-marketbeat",
+    "date": "Lukáš Brath • 04/02/2026",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield's MarketBeats analyzes quarterly activities in Slovakia's commercial real estate sector, including office, retail, and industrial properties. This analysis covers trends, supply, demand, and market prices.",
+    "image": ""
+  },
+  {
     "title": "Italy MarketBeat",
     "link": "https://www.cushmanwakefield.com/it-it/italy/insights/italy-marketbeat",
     "date": "Anna Strazza • 03/02/2026",
@@ -128,14 +136,6 @@
     "image": ""
   },
   {
-    "title": "CEE Retail MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
-    "date": "Marie Baláčová • 15/12/2025",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) retail sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
     "title": "CEE Office MarketBeat Reports",
     "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/office-marketbeat",
     "date": "Marie Baláčová • 15/12/2025",
@@ -144,11 +144,11 @@
     "image": ""
   },
   {
-    "title": "Slovakia MarketBeat",
-    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/slovakia-marketbeat",
-    "date": "Lukáš Brath • 06/11/2025",
+    "title": "CEE Retail MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
+    "date": "Marie Baláčová • 15/12/2025",
     "dateObj": null,
-    "summary": "Cushman & Wakefield's MarketBeats analyzes quarterly activities in Slovakia's commercial real estate sector, including office, retail, and industrial properties. This analysis covers trends, supply, demand, and market prices.",
+    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) retail sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
     "image": ""
   },
   {
