@@ -120,14 +120,6 @@
     "image": ""
   },
   {
-    "title": "UK Build-to-Rent Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/build-to-rent-marketbeat",
-    "date": "02/02/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the UK build-to-rent sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
     "title": "Sweden MarketBeat",
     "link": "https://www.cushmanwakefield.com/sv-se/sweden/insights/sweden-marketbeat",
     "date": "30/01/2026",
@@ -136,19 +128,27 @@
     "image": ""
   },
   {
-    "title": "CEE Retail MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
-    "date": "Marie Baláčová • 15/12/2025",
+    "title": "Office Real Estate MarketBeat in Lyon Region",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-lyon",
+    "date": "27/10/2025",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) retail sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "The Office Marketbeat Lyon Region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
     "image": ""
   },
   {
-    "title": "CEE Office MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/office-marketbeat",
-    "date": "Marie Baláčová • 15/12/2025",
+    "title": "CRE Investment in France: Market Update",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-investissement",
+    "date": "Aymeric Sevestre • 22/10/2025",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) office sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Marketbeat Investissement market reports analyse activity in the French property investment market, taking into account volumes committed across all asset types",
+    "image": ""
+  },
+  {
+    "title": "Office Real Estate MarketBeat in Aix-Marseille Region",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-aix-marseille",
+    "date": "Lucile De Malet • 17/10/2025",
+    "dateObj": null,
+    "summary": "The Office Marketbeat Aix-Marseille region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
     "image": ""
   },
   {
