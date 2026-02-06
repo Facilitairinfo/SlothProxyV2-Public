@@ -96,6 +96,22 @@
     "image": ""
   },
   {
+    "title": "Marketbeat Spain Offices",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/office-marketbeat",
+    "date": "Marta Esclapés • 06/02/2026",
+    "dateObj": null,
+    "summary": "Office Marketbeat is a summary of the Spain office property sector in key cities, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Industrial",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/industrial-marketbeat",
+    "date": "Marta Esclapés • 06/02/2026",
+    "dateObj": null,
+    "summary": "Industrial Marketbeat is a summary of the Spain industrial and logistics property sector providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
     "title": "Marketbeat Spain Retail",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
     "date": "Marta Esclapés • 06/02/2026",
@@ -112,27 +128,19 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Industrial",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/industrial-marketbeat",
-    "date": "Marta Esclapés • 06/02/2026",
+    "title": "Poland MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 20/01/2026",
     "dateObj": null,
-    "summary": "Industrial Marketbeat is a summary of the Spain industrial and logistics property sector providing comment on recent trends as well as market data and analysis.",
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
     "image": ""
   },
   {
-    "title": "UK Regional Offices MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/regional-office-marketbeats",
-    "date": "Kiran Patel • 05/02/2026",
+    "title": "Marketbeat Spain Living",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/living-marketbeat",
+    "date": "Marta Esclapés • 07/11/2025",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the UK office sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "CRE Investment in France: Market Update",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-investissement",
-    "date": "Aymeric Sevestre • 22/10/2025",
-    "dateObj": null,
-    "summary": "Marketbeat Investissement market reports analyse activity in the French property investment market, taking into account volumes committed across all asset types",
+    "summary": "Living Marketbeat is a summary of the Spain nursering, PRS, PBSA, BRT and Flex Living property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
@@ -141,14 +149,6 @@
     "date": "Marta Esclapés • 18/09/2025",
     "dateObj": null,
     "summary": "Hotel Marketbeat is a summary of the Spanish hospitality market across key cities and tourist destinations. The report provides up-to-date insight into sector trends, including transaction activity, pricing evolution, investment analysis, and demand dynamics.",
-    "image": ""
-  },
-  {
-    "title": "France MarketBeat Residential",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-residential",
-    "date": "Alexandra Paulin • 28/05/2024",
-    "dateObj": null,
-    "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
     "image": ""
   },
   {
@@ -176,35 +176,43 @@
     "image": ""
   },
   {
-    "title": "European Food Halls",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/european-food-halls",
-    "date": "26/07/2024",
+    "title": "Stamp Duty Calculator",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/stamp-duty-calculator",
+    "date": "20/01/2026",
     "dateObj": null,
-    "summary": "Recently, Spain has witnessed a surge in high-end food halls, with various examples in big cities such as Madrid or Barcelona.",
+    "summary": "Calculate commercial stamp duty (SDLT) for UK property purchases with Cushman & Wakefield's free calculator. Covers England, Scotland, Wales & NI",
     "image": ""
   },
   {
-    "title": "European Living Revolution",
-    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/european-living-revolution",
-    "date": "01/07/2024",
+    "title": "Visions",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/visions",
+    "date": "15/01/2026",
     "dateObj": null,
-    "summary": "In Cushman & Wakefield’s latest report ‘Unpacking Europe’s Living Revolution’ we analyse the outlook for the living sector to 2040, highlighting the major demographic and societal reasons underpinning its enormous growth potential over the next couple of decades.",
+    "summary": "Cushman & Wakefield's view on key market trends and insights to drive your future real estate decision making",
     "image": ""
   },
   {
-    "title": "Rent burden and real estate investment",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/umfrage-mietbelastung-civey",
-    "date": "25/04/2022",
+    "title": "Autumn Budget: Implications for real estate",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/autumn-budget-implications-for-real-estate",
+    "date": "Daryl Perry • 27/11/2025",
     "dateObj": null,
-    "summary": "Germany is a rental market. And with around 42.8 million households and a home ownership rate of only about 50 percent, it is actually the largest in Europe.",
+    "summary": "The well-documented tightening that the Chancellor had to go through was always going to make this a difficult Budget in order to comply with her fiscal rules – with headroom of just £9.9 billion left at the last budget.",
     "image": ""
   },
   {
-    "title": "Workplace Ecosystems of the Future",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/the-future-of-workplace",
-    "date": "David Smith • 21/12/2020",
+    "title": "The Athleisure Race Continues",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/the-athleisure-race-continues",
+    "date": "Duncan Gilliard • 28/01/2025",
     "dateObj": null,
-    "summary": "In this report, we examine what the future of the office will look like in a post-COVID-19 world by exploring investor, occupier and placemaker feedback and analyze historical work from home (WFH) penetration rates.",
+    "summary": "January. The time of year when new year resolutioners head to gyms across the UK to start their fitness journeys.",
+    "image": ""
+  },
+  {
+    "title": "The UK F&B Sector Is Serving Up Reasons To Be Cheerful",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-fb-sector-is-serving-up-reasons-to-be-cheerful",
+    "date": "Matthew Englender • 06/09/2023",
+    "dateObj": null,
+    "summary": "Food inflation and menu prices are at an all-time high meaning operators must be creative. Already pioneering brands are revisiting where they source their produce and are changing their menus to serve local and in-season food.",
     "image": ""
   }
 ]
