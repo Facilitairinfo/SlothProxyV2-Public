@@ -1,5 +1,13 @@
 [
   {
+    "title": "Mijn mini CSU-museum",
+    "link": "https://www.csu.nl/nieuws/mijn-mini-csu-museum/",
+    "date": "18 februari 2026",
+    "dateObj": "2026-02-18T00:00:00.000Z",
+    "summary": "",
+    "image": "https://www.csu.nl/wp-content/uploads/2026/02/mini-csu-museum-mobile-340x200.png"
+  },
+  {
     "title": "CSU en Gemeente Rotterdam planten eerste bomen van nieuw compensatiebos",
     "link": "https://www.csu.nl/nieuws/csu-en-gemeente-rotterdam-planten-eerste-bomen-van-nieuw-compensatiebos/",
     "date": "30 januari 2026",
@@ -86,13 +94,5 @@
     "dateObj": "2025-10-28T00:00:00.000Z",
     "summary": "Duurzaamheid",
     "image": "https://www.csu.nl/wp-content/uploads/2025/10/800x800-manifest-1-340x200.png"
-  },
-  {
-    "title": "Inschrijving CSU Innovatie Award geopend",
-    "link": "https://www.csu.nl/nieuws/inschrijving-csu-innovatie-award-geopend/",
-    "date": "27 oktober 2025",
-    "dateObj": "2025-10-27T00:00:00.000Z",
-    "summary": "Innovatie  Persbericht",
-    "image": "https://www.csu.nl/wp-content/uploads/2025/10/CSU-innovatie-award-uitgelichte-afbeelding-340x200.png"
   }
 ]

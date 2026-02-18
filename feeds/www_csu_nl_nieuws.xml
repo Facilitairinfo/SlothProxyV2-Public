@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Mijn mini CSU-museum]]></title>
+      <link>https://www.csu.nl/nieuws/mijn-mini-csu-museum/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/mini-csu-museum-mobile-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/mini-csu-museum-mobile-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[CSU en Gemeente Rotterdam planten eerste bomen van nieuw compensatiebos]]></title>
       <link>https://www.csu.nl/nieuws/csu-en-gemeente-rotterdam-planten-eerste-bomen-van-nieuw-compensatiebos/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Duurzaamheid]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/800x800-manifest-1-340x200.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/800x800-manifest-1-340x200.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Inschrijving CSU Innovatie Award geopend]]></title>
-      <link>https://www.csu.nl/nieuws/inschrijving-csu-innovatie-award-geopend/</link>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Innovatie  Persbericht]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/CSU-innovatie-award-uitgelichte-afbeelding-340x200.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/CSU-innovatie-award-uitgelichte-afbeelding-340x200.png" medium="image" />
     </item>
     </channel>
   </rss>
