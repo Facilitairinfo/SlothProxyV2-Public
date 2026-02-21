@@ -96,62 +96,6 @@
     "image": ""
   },
   {
-    "title": "UK London Office Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/london-office-marketbeat",
-    "date": "Kiran Patel • 18/02/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the London office market. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Poland MarketBeat",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
-    "date": "Ewa Derlatka-Chilewicz • 18/02/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
-    "title": "UK Investment Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/investment-marketbeat",
-    "date": "Daryl Perry • 17/02/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the investment market nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "UK Economy & Housing Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/economy-and-housing-marketbeat",
-    "date": "Daryl Perry • 17/02/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the investment market nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "UK Retail Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/retail-marketbeat",
-    "date": "Edward Bavister • 11/02/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the UK retail sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Hungary MarketBeat",
-    "link": "https://www.cushmanwakefield.com/hu-hu/hungary/insights/hungary-marketbeat",
-    "date": "Orsolya Hegedűs • 09/02/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Hungary commercial property activity across office, industrial, retail and hospitality real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
-    "title": "Italy MarketBeat",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/italy-marketbeat",
-    "date": "Anna Strazza • 03/02/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Italy commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
     "title": "The Netherlands MarketBeat",
     "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/netherlands-marketbeat",
     "date": "Jos Hesselink • 28/01/2026",
@@ -160,75 +104,99 @@
     "image": ""
   },
   {
-    "title": "France MarketBeat Residential",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-residential",
-    "date": "Alexandra Paulin • 28/05/2024",
+    "title": "Office Fit Out Cost Guide",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/office-fit-out-cost-guide",
+    "date": "23/05/2025",
     "dateObj": null,
-    "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
+    "summary": "Optimaliseer het potentieel van uw kantoorruimte in Nederland met onze Kostengids voor Kantoorinrichting 2025. Begin vandaag nog uw reis naar een efficiëntere en innovatievere werkruimte in steden zoals Amsterdam en Rotterdam!",
     "image": ""
   },
   {
-    "title": "Wrocław: A City of Business Opportunities. The Warehouse and Production Market in the Wrocław Agglomeration",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/wroclaw-a-city-of-business-opportunities",
-    "date": "Szczepan Gowin • 16/02/2026",
+    "title": "Nederland Compleet 2024",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/nederlands-compleet",
+    "date": "18/10/2024",
     "dateObj": null,
-    "summary": "Wrocław, known as the city of a hundred bridges, has been building new ones for years — this time between logistics, technology and business.",
+    "summary": "Nederland Compleet 2024 is een rapport van Cushman & Wakefield waarin het ruimtegebruik in vijf grote economische regio’s centraal staat, op basis van een analyse van het regionale economische DNA. Aan de hand van de regionale context wordt de dynamiek op de vastgoedmarkt geduid.",
     "image": ""
   },
   {
-    "title": "Italy RE Market Trends 2025 & Outlook 2026",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/italy-re-market-overview-h2-2025",
-    "date": "Anna Strazza • 12/02/2026",
+    "title": "Inclusive Cities Barometer",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/inclusive-cities-barometer",
+    "date": "17/07/2024",
     "dateObj": null,
-    "summary": "2026 opens with a more stable outlook, improved visibility on yields and a more favorable financing environment. In an increasingly selective market, asset quality, strong fundamentals and strategic positioning will be key to capturing the best opportunities.",
+    "summary": "Nederlandse steden behoren tot de meest inclusieve van Europa.\nDit blijkt uit de Inclusive Cities Barometer, een omvangrijk onderzoek naar 44 steden in Europa en het Midden-Oosten (EMEA), waaronder Rotterdam en Amsterdam.",
     "image": ""
   },
   {
-    "title": "Southern Europe Investment Market Overview",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/southern-europe-investment-market-overview",
-    "date": "Marta Esclapés • 03/02/2026",
+    "title": "Energielabels prijsbepalend in krappe woningmarkt",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/energy-labels-determine-price",
+    "date": "Willemijn van den Hoek • 10/06/2024",
     "dateObj": null,
-    "summary": "A comprehensive summary of the real estate investment market across Southern Europe — Italy, Spain, and Portugal — highlighting trends, sector performance, and total volumes for the full year 2025.",
+    "summary": "Cushman & Wakefield analyseert en duidt de woningmarkt permanent. De laatste cijfers laten zien dat krapte op de woningmarkt weer een prijsopdrijvend effect hebben.",
     "image": ""
   },
   {
-    "title": "Southern Europe RE Investment Market Overview 2025",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/southern-europe-real-estate-investment-market",
-    "date": "Anna Strazza • 03/02/2026",
+    "title": "Wet betaalbare huur: waarom vooral bestaande bouw hard wordt geraakt",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/affordable-rent-act-why-existing-construction-is-hit-especially-hard",
+    "date": "Willemijn van den Hoek • 31/05/2024",
     "dateObj": null,
-    "summary": "A comprehensive summary of the real estate investment market across Southern Europe — Italy, Spain, and Portugal — highlighting trends, sector performance, and total volumes for the full year 2025.",
+    "summary": "Recent onderzoek van Cushman & Wakefield laat zien dat de Wet betaalbare huur de bouwopgave niet in de weg hoeft te staan. Benieuwd naar hoe wij tot deze conclusies zijn gekomen? Lees dan ons artikel!",
     "image": ""
   },
   {
-    "title": "Italy Outlook 2026",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/italy-outlook",
-    "date": "Anna Strazza • 17/12/2025",
+    "title": "Netherlands Outlook 2024 | MIPIM Edition",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/outlook-mipim-edition",
+    "date": "Jos Hesselink • 12/03/2024",
     "dateObj": null,
-    "summary": "After a year marked by uncertainty and a reassessment of strategies, European real estate markets are approaching 2026 with renewed optimism, according to the latest forecasts outlined in Cushman & Wakefield’s European Outlook 2026.",
+    "summary": "In de speciale MIPIM Editie van onze Outlook geven wij voorspellingen over de transactiedynamiek op de verschillende beleggings- en gebruikersmarkten op basis van eigen visie en transactiedata. De prognose gaat over de ontwikkelingen op de kantorenmarkt, retail, woningen en de markt voor logistiek en bedrijfsmatig vastgoed.",
     "image": ""
   },
   {
-    "title": "Maps of office rents in France by metro station",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/carte-de-metro-france",
-    "date": "Pascale Philippe • 04/12/2024",
+    "title": "Onderzoek verbetermogelijkheden investeringscondities Nederlandse woningmarkt",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/onderzoek-verbetermogelijkheden-investeringscondities-nederlandse-woningmarkt",
+    "date": "Willemijn van den Hoek",
     "dateObj": null,
-    "summary": "For the 10st consecutive year, Cushman & Wakefield publishes its maps of rental values for office space by metro station in Paris, Lyon and Marseille. For each metro station, these values correspond to the average rental values for offices >100 sqm available immediately and in 2025. These values exclude charges and taxes and are weighted by surface area.",
+    "summary": "Cushman & Wakefield heeft in opdracht van Holland Metropole een onderzoek uitgevoerd naar de verbetermogelijkheden van de investeringscondities in de Nederlandse woningmarkt.",
     "image": ""
   },
   {
-    "title": "A Life of Luxury: Perspectives from Paris",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/a-life-of-luxury-perspectives-from-paris",
-    "date": "Duncan Gilliard • 20/09/2023",
+    "title": "Winkelhuurprijzen Amsterdam 2023",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/winkelhuurprijzen-amsterdam",
+    "date": "22/01/2024",
     "dateObj": null,
-    "summary": "On a recent team work trip to meet with retailers and colleagues from our Paris office, three clear trends stood out.",
+    "summary": "Voor u ligt de onderzoeksrapportage “Winkelhuren Amsterdam medio 2023”. In deze rapportage wordt net als in voorgaande jaren een representatief beeld geschetst van de actuele markthuurniveaus van commercieel onroerend goed ten behoeve van winkels en daghoreca in winkelgebieden in Amsterdam.",
     "image": ""
   },
   {
-    "title": "Shaping a Sustainable and Successful Fashion Brand",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/shaping-a-sustainable-and-successful-fashion-brand",
-    "date": "Jennifer Milne • 18/04/2023",
+    "title": "Dubbele kloof zorgt voor extra druk op logistiek vastgoed",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/dubbele-kloof-zorgt-voor-extra-druk-op-logistiek-vastgoed",
+    "date": "25/07/2023",
     "dateObj": null,
-    "summary": "Introducing the C&W Sustainability Series, the first in a series of regular articles published throughout 2023 on ESG in Real Estate.",
+    "summary": "De invoering van de zero-emissie zones zal de druk op logistiek Nederland alleen maar doen toenemen. Dit vraagt om meer samenwerking om goederenstromen naar de stad te bundelen.",
+    "image": ""
+  },
+  {
+    "title": "Acht praktische manieren waarop werkgevers de ervaring op de werkvloer kunnen verbeteren – voor iedereen",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/eight-practical-ways-to-improve-the-workplace-experience",
+    "date": "13/03/2023",
+    "dateObj": null,
+    "summary": "",
+    "image": ""
+  },
+  {
+    "title": "The Feminist City",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/feminist-city",
+    "date": "07/03/2023",
+    "dateObj": null,
+    "summary": "In onze serie 'Feminist City' belichtten we verschillende perspectieven van vrouwen in steden en hoe stedelijke planning, stedelijk bestuur en kantoorinrichting vrouwen beter kunnen ondersteunen in hun dagelijks leven.",
+    "image": ""
+  },
+  {
+    "title": "De Volgende Grens: CRE en de Metaverse",
+    "link": "https://www.cushmanwakefield.com/nl-nl/netherlands/insights/the-next-frontier-commercial-real-estate-and-the-metaverse",
+    "date": "09/02/2023",
+    "dateObj": null,
+    "summary": "De metaverse vertegenwoordigt nieuwe kansen voor commericeel vastgoed - van inkomstenstromen tot unieke merkervaringen en het creëren van een geheel nieuwe manier van werken.",
     "image": ""
   }
 ]
