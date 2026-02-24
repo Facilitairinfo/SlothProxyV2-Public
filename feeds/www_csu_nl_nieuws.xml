@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Toekomstmuseum Next Nature vindt in CSU een innovatieve partner]]></title>
+      <link>https://www.csu.nl/nieuws/toekomstmuseum-next-nature-vindt-in-csu-een-innovatieve-partner/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/CSU-header-mobile-800x500-4-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/CSU-header-mobile-800x500-4-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Mijn mini CSU-museum]]></title>
       <link>https://www.csu.nl/nieuws/mijn-mini-csu-museum/</link>
       <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Duurzaamheid  Persbericht  Innovatie]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/csu-boma-csu-340x200.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/csu-boma-csu-340x200.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Duurzame schoonmaak in het regeerakkoord]]></title>
-      <link>https://www.csu.nl/nieuws/manifest-duurzame-schoonmaak-in-het-regeerakkoord/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Duurzaamheid]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/10/800x800-manifest-1-340x200.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/10/800x800-manifest-1-340x200.png" medium="image" />
     </item>
     </channel>
   </rss>
