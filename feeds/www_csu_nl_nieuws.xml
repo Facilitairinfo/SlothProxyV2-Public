@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Achter de schermen van station Oeteldonk Centraol: ónze mensen maken het verschil]]></title>
+      <link>https://www.csu.nl/nieuws/carnaval-op-station-den-bosch-het-vakmanschap-achter-een-schoon-en-veilig-station/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Mens]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/Ontwerp-zonder-titel-20-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/Ontwerp-zonder-titel-20-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Toekomstmuseum Next Nature vindt in CSU een innovatieve partner]]></title>
       <link>https://www.csu.nl/nieuws/toekomstmuseum-next-nature-vindt-in-csu-een-innovatieve-partner/</link>
       <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-header-mobile-800x500-2-340x200.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-header-mobile-800x500-2-340x200.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[CSU en BOMA verlengen samenwerking: Transparantie en duurzaamheid voorop]]></title>
-      <link>https://www.csu.nl/nieuws/csu-en-boma-verlengen-samenwerking-transparantie-en-duurzaamheid-voorop/</link>
-      <pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Duurzaamheid  Persbericht  Innovatie]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/csu-boma-csu-340x200.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/csu-boma-csu-340x200.png" medium="image" />
     </item>
     </channel>
   </rss>
