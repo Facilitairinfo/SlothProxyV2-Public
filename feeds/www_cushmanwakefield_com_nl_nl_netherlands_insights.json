@@ -112,11 +112,27 @@
     "image": ""
   },
   {
-    "title": "UK Hospitality Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/hospitality-marketbeat",
-    "date": "Bořivoj Vokřínek • 26/02/2026",
+    "title": "UK London Office Marketbeat Reports",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/london-office-marketbeat",
+    "date": "Heena Gadhavi • 18/02/2026",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the UK hospitality sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Access the latest quarterly commercial real estate results for the London office market. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "UK Regional Offices MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/regional-office-marketbeats",
+    "date": "Joshua Woolnough • 05/02/2026",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the UK office sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "UK Life Science Marketbeat Report",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/life-science-marketbeat",
+    "date": "Joshua Woolnough • 26/01/2026",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the UK life science sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
     "image": ""
   },
   {
@@ -125,14 +141,6 @@
     "date": "",
     "dateObj": null,
     "summary": "Quarterly market figures and trends in Germany and its top real estate markets. Short, concise and to the point.",
-    "image": ""
-  },
-  {
-    "title": "Luxembourg MarketBeat",
-    "link": "https://www.cushmanwakefield.com/fr-lu/luxembourg/insights/luxembourg-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Luxembourg commercial property activity across office and retail real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
     "image": ""
   },
   {
