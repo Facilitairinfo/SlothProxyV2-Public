@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[MyHives Nest wint CSU Innovatie Award 2026]]></title>
+      <link>https://www.csu.nl/nieuws/myhives-nest-wint-csu-innovatie-award-2026/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Persbericht  Innovatie]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/03/MyHives-Nest-wint-CSU-Innovatie-Award-2026-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/03/MyHives-Nest-wint-CSU-Innovatie-Award-2026-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Achter de schermen van station Oeteldonk Centraol: ónze mensen maken het verschil]]></title>
       <link>https://www.csu.nl/nieuws/carnaval-op-station-den-bosch-het-vakmanschap-achter-een-schoon-en-veilig-station/</link>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Duurzaamheid]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/Ontwerp-zonder-titel-1-1-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/Ontwerp-zonder-titel-1-1-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Collega’s Shirley en Thaisa te zien in nieuwe Brainport campagne]]></title>
-      <link>https://www.csu.nl/nieuws/collegas-shirley-en-thaisa-te-zien-in-nieuwe-brainport-campagne/</link>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
-      
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-header-mobile-800x500-2-340x200.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-header-mobile-800x500-2-340x200.png" medium="image" />
     </item>
     </channel>
   </rss>
