@@ -96,22 +96,6 @@
     "image": ""
   },
   {
-    "title": "Poland MarketBeat",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
-    "date": "Ewa Derlatka-Chilewicz • 03/03/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
-    "title": "Residential MarketBeat",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/residential-marketbeat",
-    "date": "Ewa Derlatka-Chilewicz • 03/03/2026",
-    "dateObj": null,
-    "summary": "Get comprehensive insights into Poland's dynamic residential property sector.",
-    "image": ""
-  },
-  {
     "title": "UK London Office Marketbeat Reports",
     "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/london-office-marketbeat",
     "date": "Heena Gadhavi • 18/02/2026",
@@ -136,6 +120,62 @@
     "image": ""
   },
   {
+    "title": "Retail MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/retail-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Quarterly market figures and trends for the Commercial Retail Market in Germany",
+    "image": ""
+  },
+  {
+    "title": "Residential MarketBeat Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/residential-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Market figures and trends for the Commercial Residential Market in Germany",
+    "image": ""
+  },
+  {
+    "title": "Office MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/office-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Quarterly market figures and trends for the Commercial Office Leasing Market in Germany",
+    "image": ""
+  },
+  {
+    "title": "Logistics & Industrial MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/logistics-industrial-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Quarterly market figures and trends for the  Logistics & Industrial Market in Germany",
+    "image": ""
+  },
+  {
+    "title": "Investment MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/investment-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Quarterly market figures and trends for the Commercial Real Estate Investment Market in Germany",
+    "image": ""
+  },
+  {
+    "title": "Hospitality MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/hospitality-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Market figures and trends for the Hospitality Market in Germany",
+    "image": ""
+  },
+  {
+    "title": "Healthcare MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/healthcare-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Quarterly market figures and trends for the Healthcare Market in Germany",
+    "image": ""
+  },
+  {
     "title": "MarketBeats Germany",
     "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat",
     "date": "",
@@ -152,51 +192,67 @@
     "image": ""
   },
   {
+    "title": "Wrocław: A City of Business Opportunities. The Warehouse and Production Market in the Wrocław Agglomeration",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/wroclaw-a-city-of-business-opportunities",
+    "date": "Szczepan Gowin • 16/02/2026",
+    "dateObj": null,
+    "summary": "Wrocław, known as the city of a hundred bridges, has been building new ones for years — this time between logistics, technology and business.",
+    "image": ""
+  },
+  {
+    "title": "Italy RE Market Trends 2025 & Outlook 2026",
+    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/italy-re-market-overview-h2-2025",
+    "date": "Anna Strazza • 12/02/2026",
+    "dateObj": null,
+    "summary": "2026 opens with a more stable outlook, improved visibility on yields and a more favorable financing environment. In an increasingly selective market, asset quality, strong fundamentals and strategic positioning will be key to capturing the best opportunities.",
+    "image": ""
+  },
+  {
+    "title": "Southern Europe Investment Market Overview",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/southern-europe-investment-market-overview",
+    "date": "Marta Esclapés • 03/02/2026",
+    "dateObj": null,
+    "summary": "A comprehensive summary of the real estate investment market across Southern Europe — Italy, Spain, and Portugal — highlighting trends, sector performance, and total volumes for the full year 2025.",
+    "image": ""
+  },
+  {
+    "title": "Stamp Duty Calculator",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/stamp-duty-calculator",
+    "date": "20/01/2026",
+    "dateObj": null,
+    "summary": "Calculate commercial stamp duty (SDLT) for UK property purchases with Cushman & Wakefield's free calculator. Covers England, Scotland, Wales & NI",
+    "image": ""
+  },
+  {
+    "title": "Reimagining Workplaces",
+    "link": "https://www.cushmanwakefield.com/sk-sk/slovakia/insights/reimagining-the-workplace",
+    "date": "05/12/2025",
+    "dateObj": null,
+    "summary": "Workplaces now serve a purpose far beyond providing desks. They shape culture, support collaboration and act as strategic assets that fuel organizational growth.",
+    "image": ""
+  },
+  {
+    "title": "UK Self Storage Annual Report",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-self-storage-annual-report",
+    "date": "30/04/2025",
+    "dateObj": null,
+    "summary": "The Self Storage Association UK Annual Industry Report provides a comprehensive overview into the self storage sector.",
+    "image": ""
+  },
+  {
+    "title": "Office Fit Out Cost Guide",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/office-fit-out-cost-guide",
+    "date": "03/04/2023",
+    "dateObj": null,
+    "summary": "Een office fit out verwijst naar het proces van het ontwerpen en bouwen van een kantoorruimte om te voldoen aan de specifieke behoeften van de gebruiker. Dit kan alles omvatten, van meubilair en apparatuur tot mechanische en elektrische systemen.",
+    "image": ""
+  },
+  {
     "title": "C&W Blog",
     "link": "https://www.cushmanwakefield.com/de-de/germany/insights/blog",
     "date": "",
     "dateObj": null,
     "summary": "Real estate trends in a nutshell: Using the Cushman & Wakefield blog to have a say on tomorrow's topics.",
-    "image": ""
-  },
-  {
-    "title": "Healthcare MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/healthcare-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Quarterly market figures and trends for the Healthcare Market in Germany",
-    "image": ""
-  },
-  {
-    "title": "Logistics & Industrial MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/logistics-industrial-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Quarterly market figures and trends for the  Logistics & Industrial Market in Germany",
-    "image": ""
-  },
-  {
-    "title": "Hospitality MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/hospitality-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Market figures and trends for the Hospitality Market in Germany",
-    "image": ""
-  },
-  {
-    "title": "Retail MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/retail-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Quarterly market figures and trends for the Commercial Retail Market in Germany",
-    "image": ""
-  },
-  {
-    "title": "Residential MarketBeat Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/residential-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Market figures and trends for the Commercial Residential Market in Germany",
     "image": ""
   }
 ]
