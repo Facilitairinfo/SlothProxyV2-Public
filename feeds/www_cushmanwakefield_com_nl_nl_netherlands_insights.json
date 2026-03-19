@@ -104,11 +104,11 @@
     "image": ""
   },
   {
-    "title": "Investment MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat",
-    "date": "",
+    "title": "Belgium Industrial MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
+    "date": "Annechien Veulemans",
     "dateObj": null,
-    "summary": "Quarterly market figures and trends in Germany and its top real estate markets. Short, concise and to the point.",
+    "summary": "Industrial MarketBeat is a summary of the Belgium industrial and logistics property sector, providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
@@ -120,19 +120,19 @@
     "image": ""
   },
   {
-    "title": "Belgium Industrial MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
-    "date": "Annechien Veulemans",
-    "dateObj": null,
-    "summary": "Industrial MarketBeat is a summary of the Belgium industrial and logistics property sector, providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
     "title": "Brussels Office MarketBeat",
     "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/brussels-office-marketbeat",
     "date": "Annechien Veulemans",
     "dateObj": null,
     "summary": "Office Marketbeat is a summary of the Brussels office property sector providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Investment MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat",
+    "date": "",
+    "dateObj": null,
+    "summary": "Quarterly market figures and trends in Germany and its top real estate markets. Short, concise and to the point.",
     "image": ""
   },
   {
