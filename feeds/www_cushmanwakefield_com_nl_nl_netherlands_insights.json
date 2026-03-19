@@ -96,51 +96,11 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Hospitality",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/hospitality-marketbeat",
-    "date": "Marta Esclapés • 16/03/2026",
+    "title": "Belgium Retail MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/retail-marketbeat",
+    "date": "Annechien Veulemans",
     "dateObj": null,
-    "summary": "Summary of the Spanish hospitality market across key cities and tourist destinations. Get up-to-date insight into sector trends, including transaction activity, pricing evolution, investment analysis, and demand dynamics.",
-    "image": ""
-  },
-  {
-    "title": "Residential MarketBeat Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/residential-marketbeat",
-    "date": "13/03/2026",
-    "dateObj": null,
-    "summary": "Market figures and trends for the Commercial Residential Market in Germany",
-    "image": ""
-  },
-  {
-    "title": "Marketbeat Spain Living",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/living-marketbeat",
-    "date": "Marta Esclapés • 11/03/2026",
-    "dateObj": null,
-    "summary": "Living Marketbeat is a summary of the Spain Nursing Home, PBSA, PRS, BTR and Flex Living property sector providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Office Real Estate MarketBeat in Aix-Marseille Region",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-aix-marseille",
-    "date": "Lucile De Malet • 17/10/2025",
-    "dateObj": null,
-    "summary": "The Office Marketbeat Aix-Marseille region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
-    "image": ""
-  },
-  {
-    "title": "CEE MarketBeats",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/cee-marketbeat",
-    "date": "Marie Baláčová • 18/02/2025",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly commercial real estate activity in the CEE region (Czech Republic, Hungary, Poland, Romania, and Slovakia) across office, retail, industrial and hospitality real estate sectors.",
-    "image": ""
-  },
-  {
-    "title": "Office MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/office-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Quarterly market figures and trends for the Commercial Office Leasing Market in Germany",
+    "summary": "Retail MarketBeat is a brief summary of the retail sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
@@ -149,6 +109,30 @@
     "date": "",
     "dateObj": null,
     "summary": "Quarterly market figures and trends in Germany and its top real estate markets. Short, concise and to the point.",
+    "image": ""
+  },
+  {
+    "title": "Belgium Regional Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/regional-office-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Office MarketBeat is a brief summary of the office sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Belgium Industrial MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Industrial MarketBeat is a summary of the Belgium industrial and logistics property sector, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Brussels Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/brussels-office-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Office Marketbeat is a summary of the Brussels office property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
