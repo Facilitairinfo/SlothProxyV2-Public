@@ -96,67 +96,35 @@
     "image": ""
   },
   {
-    "title": "Czech Republic Hospitality MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat/hospitality-marketbeat",
-    "date": "Kamila Breen • 23/03/2026",
+    "title": "Brussels Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/brussels-office-marketbeat",
+    "date": "Annechien Veulemans",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for CEE and Czech Republic's hospitality sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Office Marketbeat is a summary of the Brussels office property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
-    "title": "CEE Hospitality MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/hospitality-marketbeat",
-    "date": "Bořivoj Vokřínek • 23/03/2026",
+    "title": "Belgium Regional Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/regional-office-marketbeat",
+    "date": "Annechien Veulemans",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) hospitality sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Office MarketBeat is a brief summary of the office sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
-    "title": "Hospitality MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/hospitality-marketbeat",
-    "date": "",
+    "title": "Belgium Industrial MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
+    "date": "Annechien Veulemans",
     "dateObj": null,
-    "summary": "Market figures and trends for the Hospitality Market in Germany",
+    "summary": "Industrial MarketBeat is a summary of the Belgium industrial and logistics property sector, providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
-    "title": "Luxembourg MarketBeat",
-    "link": "https://www.cushmanwakefield.com/fr-lu/luxembourg/insights/luxembourg-marketbeat",
-    "date": "Sébastien Bequet",
+    "title": "Belgium Retail MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/retail-marketbeat",
+    "date": "Annechien Veulemans",
     "dateObj": null,
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "Luxembourg Retail MarketBeat",
-    "link": "https://www.cushmanwakefield.com/fr-lu/luxembourg/insights/luxembourg-marketbeat/retail-marketbeat",
-    "date": "Sébastien Bequet",
-    "dateObj": null,
-    "summary": "Retail MarketBeat is a summary of the Luxembourg retail property sector providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Luxembourg Office MarketBeat",
-    "link": "https://www.cushmanwakefield.com/fr-lu/luxembourg/insights/luxembourg-marketbeat/office-marketbeat",
-    "date": "Sébastien Bequet",
-    "dateObj": null,
-    "summary": "Office Marketbeat is a summary of the Luxembourg office property sector providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Transparency 22@ Barcelona",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/transparency-22-arroba-barcelona",
-    "date": "Marta Esclapés • 25/03/2026",
-    "dateObj": null,
-    "summary": "In 2025, 43% of Barcelona’s total office leasing activity (317,000 sqm) was located in the 22@ district, which once again emerged as the area with the highest market activity, with 137,000 sqm of take-up.",
-    "image": ""
-  },
-  {
-    "title": "Italy Office Fit Out Cost Guide",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/office-fit-out-cost-guide",
-    "date": "25/03/2026",
-    "dateObj": null,
-    "summary": "Revitalize your office space in Italy with our Office Fit Out Cost Guide 2026. Start redefining your workspace in cultural and economic hubs like Milan and Rome today!",
+    "summary": "Retail MarketBeat is a brief summary of the retail sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
@@ -168,11 +136,35 @@
     "image": ""
   },
   {
-    "title": "Irish Student Accommodation Review",
-    "link": "https://www.cushmanwakefield.com/en/ireland/insights/student-accommodation-review",
-    "date": "Tom McCabe • 23/03/2026",
+    "title": "The Brussels Office Market",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/brussels-office-market",
+    "date": "Rodolphe du Bois d'Aische • 09/03/2026",
     "dateObj": null,
-    "summary": "Our report covers the outlook for demand and supply for student beds and rents together with the improving investment backdrop for the student segment.",
+    "summary": "This article highlights key trends in the Belgian office market, driven by the Leopold District’s strong fundamentals and emerging opportunities for investors.",
+    "image": ""
+  },
+  {
+    "title": "What you need to know about commercial real estate market",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/what-you-need-to-know-about-commercial-real-estate-market",
+    "date": "Marie Baláčová • 23/01/2026",
+    "dateObj": null,
+    "summary": "Explore our real estate market snapshot, a video overview of the commercial real estate market developments presenting the key trends in real estate investment, logistics, office, retail and hospitality sectors.",
+    "image": ""
+  },
+  {
+    "title": "European Logistics Update",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/european-logistics-update",
+    "date": "Kamila Breen • 04/10/2024",
+    "dateObj": null,
+    "summary": "Explore the latest H1 2024 trends in the European logistics real estate market with Cushman & Wakefield's comprehensive update.",
+    "image": ""
+  },
+  {
+    "title": "Data Centres in Belgium: A growing hub for technology",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/data-centres-in-belgium-a-growing-hub-for-technology",
+    "date": "11/06/2024",
+    "dateObj": null,
+    "summary": "As technology continues to evolve and permeate both consumer and business landscapes in Belgium and globally, the interest in data centres has surged.",
     "image": ""
   }
 ]
