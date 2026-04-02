@@ -104,6 +104,14 @@
     "image": ""
   },
   {
+    "title": "CEE MarketBeats",
+    "link": "https://www.cushmanwakefield.com/hu-hu/hungary/insights/cee-marketbeat",
+    "date": "Marie Baláčová • 16/12/2025",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly commercial real estate activity in the CEE region (Czech Republic, Hungary, Poland, Romania, and Slovakia) across office, retail, industrial and hospitality real estate sectors.",
+    "image": ""
+  },
+  {
     "title": "Office Real Estate MarketBeat in Lyon Region",
     "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-lyon",
     "date": "27/10/2025",
@@ -176,27 +184,11 @@
     "image": ""
   },
   {
-    "title": "Irish Student Accommodation Review",
-    "link": "https://www.cushmanwakefield.com/en/ireland/insights/student-accommodation-review",
-    "date": "Tom McCabe • 23/03/2026",
+    "title": "CEE Investment Market Update H2 2025",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-market-insights",
+    "date": "Marie Baláčová • 10/03/2026",
     "dateObj": null,
-    "summary": "Explore the outlook for demand and supply for student beds and rents together with the improving investment backdrop for the student segment.",
-    "image": ""
-  },
-  {
-    "title": "European Hotel Investor Compass 2026",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/european-hotel-investor-compass-2026",
-    "date": "Francesco Calia • 23/03/2026",
-    "dateObj": null,
-    "summary": "",
-    "image": ""
-  },
-  {
-    "title": "European Luxury Retail",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/european-luxury-retail",
-    "date": "Vincent Ascher • 07/05/2024",
-    "dateObj": null,
-    "summary": "Location, Visibility, Experience: Luxury Retail Strengthens the European High Street Market.",
+    "summary": "Explore the latest insights on real estate markets in Bulgaria, Czech Republic, Hungary, Poland, Romania, Serbia and Slovakia",
     "image": ""
   }
 ]
