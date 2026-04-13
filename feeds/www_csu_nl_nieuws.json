@@ -1,5 +1,13 @@
 [
   {
+    "title": "Bekijk ons podcast archief",
+    "link": "https://www.csu.nl/nieuws/bekijk-ons-podcast-archief/",
+    "date": "13 april 2026",
+    "dateObj": "2026-04-13T00:00:00.000Z",
+    "summary": "Podcast",
+    "image": "https://www.csu.nl/wp-content/uploads/2023/01/Diapositief-logo-groen-3-440x350.jpg"
+  },
+  {
     "title": "MyHives Nest wint CSU Innovatie Award 2026",
     "link": "https://www.csu.nl/nieuws/myhives-nest-wint-csu-innovatie-award-2026/",
     "date": "6 maart 2026",
@@ -86,13 +94,5 @@
     "dateObj": "2025-11-28T00:00:00.000Z",
     "summary": "Mens  Duurzaamheid",
     "image": "https://www.csu.nl/wp-content/uploads/2025/11/CSU-bereikt-hoogste-PSO-trede-800x800-1.jpg"
-  },
-  {
-    "title": "Kan schoonmaken nóg schoner?",
-    "link": "https://www.csu.nl/nieuws/kan-schoonmaken-nog-schoner/",
-    "date": "27 november 2025",
-    "dateObj": "2025-11-27T00:00:00.000Z",
-    "summary": "Duurzaamheid",
-    "image": "https://www.csu.nl/wp-content/uploads/2025/11/Ontwerp-zonder-titel-1-1.jpg"
   }
 ]

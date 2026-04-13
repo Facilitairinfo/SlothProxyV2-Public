@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Bekijk ons podcast archief]]></title>
+      <link>https://www.csu.nl/nieuws/bekijk-ons-podcast-archief/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Podcast]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2023/01/Diapositief-logo-groen-3-440x350.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2023/01/Diapositief-logo-groen-3-440x350.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[MyHives Nest wint CSU Innovatie Award 2026]]></title>
       <link>https://www.csu.nl/nieuws/myhives-nest-wint-csu-innovatie-award-2026/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Mens  Duurzaamheid]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-bereikt-hoogste-PSO-trede-800x800-1.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-bereikt-hoogste-PSO-trede-800x800-1.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Kan schoonmaken nóg schoner?]]></title>
-      <link>https://www.csu.nl/nieuws/kan-schoonmaken-nog-schoner/</link>
-      <pubDate>Thu, 27 Nov 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Duurzaamheid]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/Ontwerp-zonder-titel-1-1.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/Ontwerp-zonder-titel-1-1.jpg" medium="image" />
     </item>
     </channel>
   </rss>
