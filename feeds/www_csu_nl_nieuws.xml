@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Total Care groeit naar € 964,9 miljoen omzet; mensgericht en aantoonbaar duurzamer]]></title>
+      <link>https://www.csu.nl/nieuws/total-care-groeit-naar-e-9649-miljoen-omzet-mensgericht-en-aantoonbaar-duurzamer/</link>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Jaarverslag]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/04/CSU-2025-in-beeld-jaarverslag-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/04/CSU-2025-in-beeld-jaarverslag-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Bekijk ons podcast archief]]></title>
       <link>https://www.csu.nl/nieuws/bekijk-ons-podcast-archief/</link>
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/12/mobile-800x500-1.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/12/mobile-800x500-1.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[CSU bereikt hoogste PSO-trede: samen maken we het verschil!]]></title>
-      <link>https://www.csu.nl/nieuws/csu-bereikt-hoogste-pso-trede-samen-maken-we-het-verschil/</link>
-      <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mens  Duurzaamheid]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-bereikt-hoogste-PSO-trede-800x800-1.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/CSU-bereikt-hoogste-PSO-trede-800x800-1.jpg" medium="image" />
     </item>
     </channel>
   </rss>
