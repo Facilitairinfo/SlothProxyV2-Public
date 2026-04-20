@@ -112,14 +112,6 @@
     "image": ""
   },
   {
-    "title": "CEE Industrial MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/industrial-marketbeat",
-    "date": "Marie Baláčová • 20/04/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) industrial sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
     "title": "Czech Republic MarketBeats",
     "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat",
     "date": "Kamila Breen • 26/01/2026",
@@ -136,6 +128,14 @@
     "image": ""
   },
   {
+    "title": "Brussels Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/brussels-office-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Office Marketbeat is a summary of the Brussels office property sector providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
     "title": "Belgium Industrial MarketBeat",
     "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
     "date": "Annechien Veulemans",
@@ -149,14 +149,6 @@
     "date": "Annechien Veulemans",
     "dateObj": null,
     "summary": "Office MarketBeat is a brief summary of the office sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Brussels Office MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/brussels-office-marketbeat",
-    "date": "Annechien Veulemans",
-    "dateObj": null,
-    "summary": "Office Marketbeat is a summary of the Brussels office property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
