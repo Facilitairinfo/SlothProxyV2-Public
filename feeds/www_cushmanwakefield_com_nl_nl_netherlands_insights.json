@@ -96,59 +96,67 @@
     "image": ""
   },
   {
-    "title": "CEE Office MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/office-marketbeat",
+    "title": "CEE MarketBeats",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat",
     "date": "Marie Baláčová • 20/04/2026",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) office sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Sweden MarketBeat",
-    "link": "https://www.cushmanwakefield.com/sv-se/sweden/insights/sweden-marketbeat",
-    "date": "Mariia Pohorila • 17/04/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Sweden commercial property activity across office, retail and logistics sectors including supply, demand and pricing trends at the market and submarket levels.",
-    "image": ""
-  },
-  {
-    "title": "MARKETBEAT NURSING HOMES IN EUROPE 2026",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/european-nursing-homes-marketbeat",
-    "date": "Jérôme Salomon • 16/04/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield's report on the nursing home real estate market in Europe. Analysis conducted in 15 countries : structuring of operators, volumes and dynamics of the investment market and prime yields.",
-    "image": ""
-  },
-  {
-    "title": "UK Economy & Housing Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/economy-and-housing-marketbeat",
-    "date": "Daryl Perry • 15/04/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the investment market nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "UK Investment Marketbeat Reports",
-    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/investment-marketbeat",
-    "date": "Daryl Perry • 15/04/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for the investment market nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
-    "title": "Logistics Real Estate in France: Market Update",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-logistique",
-    "date": "Romain Nicolle • 23/01/2026",
-    "dateObj": null,
-    "summary": "In our Marketbeats and Flashs, we cover French logistics markets and sub-markets quarterly. We analyze KPIs and dimensions in the market.",
-    "image": ""
-  },
-  {
-    "title": "CEE MarketBeats",
-    "link": "https://www.cushmanwakefield.com/hu-hu/hungary/insights/cee-marketbeat",
-    "date": "Marie Baláčová • 16/12/2025",
-    "dateObj": null,
     "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly commercial real estate activity in the CEE region (Czech Republic, Hungary, Poland, Romania, and Slovakia) across office, retail, industrial and hospitality real estate sectors.",
+    "image": ""
+  },
+  {
+    "title": "CEE Retail MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
+    "date": "Marie Baláčová • 20/04/2026",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) retail sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "CEE Industrial MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/industrial-marketbeat",
+    "date": "Marie Baláčová • 20/04/2026",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) industrial sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "Czech Republic MarketBeats",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat",
+    "date": "Kamila Breen • 26/01/2026",
+    "dateObj": null,
+    "summary": "MarketBeat reports analyse quarterly Czech Republic commercial property activity across office, retail, industrial and hotel real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
+    "title": "Belgium Retail MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/retail-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Retail MarketBeat is a brief summary of the retail sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Belgium Industrial MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Industrial MarketBeat is a summary of the Belgium industrial and logistics property sector, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Belgium Regional Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/regional-office-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Office MarketBeat is a brief summary of the office sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Brussels Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/brussels-office-marketbeat",
+    "date": "Annechien Veulemans",
+    "dateObj": null,
+    "summary": "Office Marketbeat is a summary of the Brussels office property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
