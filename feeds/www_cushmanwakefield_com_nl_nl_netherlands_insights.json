@@ -104,14 +104,6 @@
     "image": ""
   },
   {
-    "title": "CEE MarketBeats",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat",
-    "date": "Marie Baláčová • 20/04/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly commercial real estate activity in the CEE region (Czech Republic, Hungary, Poland, Romania, and Slovakia) across office, retail, industrial and hospitality real estate sectors.",
-    "image": ""
-  },
-  {
     "title": "Poland MarketBeat",
     "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
     "date": "Ewa Derlatka-Chilewicz • 03/03/2026",
@@ -133,6 +125,14 @@
     "date": "Aymeric Sevestre • 22/10/2025",
     "dateObj": null,
     "summary": "Marketbeat Investissement market reports analyse activity in the French property investment market, taking into account volumes committed across all asset types",
+    "image": ""
+  },
+  {
+    "title": "France MarketBeat Residential",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-residential",
+    "date": "Aymeric Sevestre • 28/05/2024",
+    "dateObj": null,
+    "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
     "image": ""
   },
   {
@@ -189,6 +189,14 @@
     "date": "Peter Farnes • 31/03/2026",
     "dateObj": null,
     "summary": "After stellar investment into the healthcare sector during 2025, the geopolitical landscape has shifted investor sentiment across real estate. Nevertheless, the fundamentals remain robust across all subsectors of Healthcare.",
+    "image": ""
+  },
+  {
+    "title": "European Investment Atlas",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/european-investment-atlas",
+    "date": "Aymeric Sevestre • 25/11/2025",
+    "dateObj": null,
+    "summary": "",
     "image": ""
   }
 ]
