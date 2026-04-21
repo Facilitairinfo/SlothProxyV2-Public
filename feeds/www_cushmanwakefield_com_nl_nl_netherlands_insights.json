@@ -112,11 +112,11 @@
     "image": ""
   },
   {
-    "title": "CEE Retail MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/retail-marketbeat",
-    "date": "Marie Baláčová • 20/04/2026",
+    "title": "Poland MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 03/03/2026",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) retail sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
     "image": ""
   },
   {
@@ -125,6 +125,14 @@
     "date": "Kamila Breen • 26/01/2026",
     "dateObj": null,
     "summary": "MarketBeat reports analyse quarterly Czech Republic commercial property activity across office, retail, industrial and hotel real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
+    "title": "CRE Investment in France: Market Update",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-investissement",
+    "date": "Aymeric Sevestre • 22/10/2025",
+    "dateObj": null,
+    "summary": "Marketbeat Investissement market reports analyse activity in the French property investment market, taking into account volumes committed across all asset types",
     "image": ""
   },
   {
@@ -144,22 +152,6 @@
     "image": ""
   },
   {
-    "title": "Belgium Industrial MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
-    "date": "Annechien Veulemans",
-    "dateObj": null,
-    "summary": "Industrial MarketBeat is a summary of the Belgium industrial and logistics property sector, providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Belgium Regional Office MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/regional-office-marketbeat",
-    "date": "Annechien Veulemans",
-    "dateObj": null,
-    "summary": "Office MarketBeat is a brief summary of the office sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
     "title": "Hospitality Sweden",
     "link": "https://www.cushmanwakefield.com/sv-se/sweden/insights/hospitality-sweden-report",
     "date": "Staffan Dahlén • 15/04/2026",
@@ -173,6 +165,14 @@
     "date": "Ewa Derlatka-Chilewicz • 14/04/2026",
     "dateObj": null,
     "summary": "Today, Praga is experiencing one of the most dynamic transformations in Warsaw. Its distinctive historic identity is seamlessly combined with modern infrastructure and a high standard of urban space.",
+    "image": ""
+  },
+  {
+    "title": "European Luxury Retail",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/european-luxury-retail",
+    "date": "07/04/2026",
+    "dateObj": null,
+    "summary": "Explore the dynamics of the European luxury retail real estate market.",
     "image": ""
   },
   {
