@@ -104,6 +104,14 @@
     "image": ""
   },
   {
+    "title": "Sweden MarketBeat",
+    "link": "https://www.cushmanwakefield.com/sv-se/sweden/insights/sweden-marketbeat",
+    "date": "Mariia Pohorila • 17/04/2026",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Sweden commercial property activity across office, retail and logistics sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
     "title": "Poland MarketBeat",
     "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
     "date": "Ewa Derlatka-Chilewicz • 03/03/2026",
@@ -133,22 +141,6 @@
     "date": "Aymeric Sevestre • 28/05/2024",
     "dateObj": null,
     "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
-    "image": ""
-  },
-  {
-    "title": "Belgium Retail MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/retail-marketbeat",
-    "date": "Annechien Veulemans",
-    "dateObj": null,
-    "summary": "Retail MarketBeat is a brief summary of the retail sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Brussels Office MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/brussels-office-marketbeat",
-    "date": "Annechien Veulemans",
-    "dateObj": null,
-    "summary": "Office Marketbeat is a summary of the Brussels office property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {

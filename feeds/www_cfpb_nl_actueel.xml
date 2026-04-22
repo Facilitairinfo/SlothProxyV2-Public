@@ -6,6 +6,15 @@
       <description>Feed for www_cfpb_nl_actueel</description>
       
     <item>
+      <title><![CDATA[Lees verder Bouwen aan een waardevolle werkomgeving via het CFPB-partnerprogramma]]></title>
+      <link>https://www.cfpb.nl/actueel/bouwen-aan-een-waardevolle-werkomgeving-via-het-cfpb-partnerprogramma</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[De missie van het CFPB is het stimuleren van een waardevolle werkomgeving voor elke organisatie. Daarbij hanteren we het motto ‘weten wat werkt’. Dit doen we samen met organisaties die willen bijdragen aan kennisontwikkeling in het werkveld via partnerprogramma’s.Lees verder]]></description>
+      <enclosure url="https://www.cfpb.nl/storage/media/2026/04/22/modules/blogs/overview/jpg/presentatie1-523.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.cfpb.nl/storage/media/2026/04/22/modules/blogs/overview/jpg/presentatie1-523.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Lees verder Werkprestaties bij hybride werken]]></title>
       <link>https://www.cfpb.nl/actueel/werkprestaties-bij-hybride-werken</link>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Met hybride werken is het beeld ontstaan: thuis is voor concentratie, kantoor voor overleg en ontmoeting. Maar klopt dat wel? Nieuw onderzoek van het Center for People and Buildings (CFPB) laat zien dat de werkzaamheden op kantoor sinds de pandemie flink is veranderd (Werk in Transitie, 2025).Lees verder]]></description>
       <enclosure url="https://www.cfpb.nl/storage/media/2025/08/11/modules/blogs/overview/jpg/dsc1298-1-259.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.cfpb.nl/storage/media/2025/08/11/modules/blogs/overview/jpg/dsc1298-1-259.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Lees verder Wat verwachten we van kantoor?]]></title>
-      <link>https://www.cfpb.nl/actueel/wat-verwachten-we-van-kantoor</link>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Op 27 juni 2025 kwamen onderzoekers, beleidsmakers en professionals samen in Delft voor de tweede CFPB Kenniskring van 2025. Thema: de veranderende rol van het kantoor in een hybride werkwereld.Lees verder]]></description>
-      <enclosure url="https://www.cfpb.nl/storage/media/2025/07/17/modules/blogs/overview/jpg/ontwerp-zonder-titel-29-250.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.cfpb.nl/storage/media/2025/07/17/modules/blogs/overview/jpg/ontwerp-zonder-titel-29-250.jpg" medium="image" />
     </item>
     </channel>
   </rss>
