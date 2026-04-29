@@ -112,19 +112,27 @@
     "image": ""
   },
   {
-    "title": "CEE Office MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/cee-marketbeat/office-marketbeat",
-    "date": "Marie Baláčová • 20/04/2026",
-    "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Central Eastern Europe's (CEE) office sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
-    "image": ""
-  },
-  {
     "title": "Logistics Real Estate in France: Market Update",
     "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-logistique",
     "date": "Romain Nicolle • 23/01/2026",
     "dateObj": null,
     "summary": "In our Marketbeats and Flashs, we cover French logistics markets and sub-markets quarterly. We analyze KPIs and dimensions in the market.",
+    "image": ""
+  },
+  {
+    "title": "Office Real Estate MarketBeat in Lyon Region",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-lyon",
+    "date": "27/10/2025",
+    "dateObj": null,
+    "summary": "The Office Marketbeat Lyon Region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
+    "image": ""
+  },
+  {
+    "title": "Office Real Estate MarketBeat in Aix-Marseille Region",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-aix-marseille",
+    "date": "Lucile De Malet • 17/10/2025",
+    "dateObj": null,
+    "summary": "The Office Marketbeat Aix-Marseille region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
     "image": ""
   },
   {
@@ -136,19 +144,19 @@
     "image": ""
   },
   {
-    "title": "Belgium Industrial MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/industrial-marketbeat",
-    "date": "Annechien Veulemans",
+    "title": "Luxembourg Office MarketBeat",
+    "link": "https://www.cushmanwakefield.com/fr-lu/luxembourg/insights/luxembourg-marketbeat/office-marketbeat",
+    "date": "Sébastien Bequet",
     "dateObj": null,
-    "summary": "Industrial MarketBeat is a summary of the Belgium industrial and logistics property sector, providing comment on recent trends as well as market data and analysis.",
+    "summary": "Office Marketbeat is a summary of the Luxembourg office property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
-    "title": "Belgium Regional Office MarketBeat",
-    "link": "https://www.cushmanwakefield.com/en/belgium/insights/belgium-marketbeat/regional-office-marketbeat",
-    "date": "Annechien Veulemans",
+    "title": "Healthcare MarketBeats Germany",
+    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/healthcare-marketbeat",
+    "date": "",
     "dateObj": null,
-    "summary": "Office MarketBeat is a brief summary of the office sector in key cities across Belgium, providing comment on recent trends as well as market data and analysis.",
+    "summary": "Quarterly market figures and trends for the Healthcare Market in Germany",
     "image": ""
   },
   {
