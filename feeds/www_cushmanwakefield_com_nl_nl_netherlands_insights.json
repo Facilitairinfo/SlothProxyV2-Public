@@ -104,19 +104,43 @@
     "image": ""
   },
   {
-    "title": "Italy MarketBeat",
-    "link": "https://www.cushmanwakefield.com/it-it/italy/insights/italy-marketbeat",
-    "date": "Anna Strazza • 27/04/2026",
+    "title": "Marketbeat Spain Offices",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/office-marketbeat",
+    "date": "Marta Esclapés • 05/04/2026",
     "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Italy commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "summary": "Office Marketbeat is a summary of the Spain office property sector in key cities, providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
-    "title": "Czech Republic Office MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat/office-marketbeat",
-    "date": "Kamila Breen • 27/04/2026",
+    "title": "Marketbeat Spain Living",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/living-marketbeat",
+    "date": "Marta Esclapés • 05/04/2026",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Czech Republic's office sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Living Marketbeat is a summary of the Spain Nursing Home, PBSA, PRS, BTR and Flex Living property sector providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Industrial",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/industrial-marketbeat",
+    "date": "Marta Esclapés • 05/04/2026",
+    "dateObj": null,
+    "summary": "Industrial Marketbeat is a summary of the Spain industrial and logistics property sector providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Hospitality",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/hospitality-marketbeat",
+    "date": "Marta Esclapés • 05/04/2026",
+    "dateObj": null,
+    "summary": "Summary of the Spanish hospitality market across key cities and tourist destinations. Get up-to-date insight into sector trends, including transaction activity, pricing evolution, investment analysis, and demand dynamics.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Retail",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
+    "date": "Marta Esclapés • 06/02/2026",
+    "dateObj": null,
+    "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
     "image": ""
   },
   {
@@ -133,30 +157,6 @@
     "date": "Lucile De Malet • 17/10/2025",
     "dateObj": null,
     "summary": "The Office Marketbeat Aix-Marseille region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
-    "image": ""
-  },
-  {
-    "title": "Hotel property in Paris and the Ile-de-France region",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/paris-marketbeat-hospitality",
-    "date": "Bořivoj Vokřínek • 01/10/2024",
-    "dateObj": null,
-    "summary": "Discover the analysis of the hotel real estate market in Paris and Île-de-France for the 1st half of 2024. Focus on major transactions, international investors and the outlook for 2025 in an attractive and fast-changing sector.",
-    "image": ""
-  },
-  {
-    "title": "Luxembourg Office MarketBeat",
-    "link": "https://www.cushmanwakefield.com/fr-lu/luxembourg/insights/luxembourg-marketbeat/office-marketbeat",
-    "date": "Sébastien Bequet",
-    "dateObj": null,
-    "summary": "Office Marketbeat is a summary of the Luxembourg office property sector providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
-    "title": "Healthcare MarketBeats Germany",
-    "link": "https://www.cushmanwakefield.com/de-de/germany/insights/germany-marketbeat/healthcare-marketbeat",
-    "date": "",
-    "dateObj": null,
-    "summary": "Quarterly market figures and trends for the Healthcare Market in Germany",
     "image": ""
   },
   {
