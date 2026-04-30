@@ -96,19 +96,35 @@
     "image": ""
   },
   {
-    "title": "Czech Republic Industrial MarketBeat Reports",
-    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat/industrial-marketbeat",
-    "date": "Kamila Breen • 30/04/2026",
+    "title": "Marketbeat Spain Industrial",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/industrial-marketbeat",
+    "date": "Marta Esclapés • 30/04/2026",
     "dateObj": null,
-    "summary": "Access the latest quarterly commercial real estate results for Czech Republic's industrial sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "summary": "Industrial Marketbeat is a summary of the Spain industrial and logistics property sector providing comment on recent trends as well as market data and analysis.",
     "image": ""
   },
   {
     "title": "Marketbeat Spain Offices",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/office-marketbeat",
-    "date": "Marta Esclapés • 05/04/2026",
+    "date": "Marta Esclapés • 30/04/2026",
     "dateObj": null,
     "summary": "Office Marketbeat is a summary of the Spain office property sector in key cities, providing comment on recent trends as well as market data and analysis.",
+    "image": ""
+  },
+  {
+    "title": "UK Industrial Marketbeat Reports",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/uk-marketbeat/industrial-marketbeat",
+    "date": "Edward Bavister • 30/04/2026",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for the UK industrial sector nationally. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
+    "title": "Marketbeat Spain Retail",
+    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
+    "date": "Marta Esclapés • 05/04/2026",
+    "dateObj": null,
+    "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
     "image": ""
   },
   {
@@ -120,14 +136,6 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Industrial",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/industrial-marketbeat",
-    "date": "Marta Esclapés • 05/04/2026",
-    "dateObj": null,
-    "summary": "Industrial Marketbeat is a summary of the Spain industrial and logistics property sector providing comment on recent trends as well as market data and analysis.",
-    "image": ""
-  },
-  {
     "title": "Marketbeat Spain Hospitality",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/hospitality-marketbeat",
     "date": "Marta Esclapés • 05/04/2026",
@@ -136,27 +144,11 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Retail",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
-    "date": "Marta Esclapés • 06/02/2026",
+    "title": "Poland MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 03/03/2026",
     "dateObj": null,
-    "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
-    "image": ""
-  },
-  {
-    "title": "Office Real Estate MarketBeat in Lyon Region",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-lyon",
-    "date": "27/10/2025",
-    "dateObj": null,
-    "summary": "The Office Marketbeat Lyon Region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
-    "image": ""
-  },
-  {
-    "title": "Office Real Estate MarketBeat in Aix-Marseille Region",
-    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-bureaux-aix-marseille",
-    "date": "Lucile De Malet • 17/10/2025",
-    "dateObj": null,
-    "summary": "The Office Marketbeat Aix-Marseille region analyses the activity of commercial real estate in Lyon region in the office sector, taking into account supply, take-up and transactions across markets and submarkets.",
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
     "image": ""
   },
   {
