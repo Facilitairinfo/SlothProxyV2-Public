@@ -96,6 +96,14 @@
     "image": ""
   },
   {
+    "title": "Poland MarketBeat",
+    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
+    "date": "Ewa Derlatka-Chilewicz • 04/05/2026",
+    "dateObj": null,
+    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "image": ""
+  },
+  {
     "title": "Marketbeat Spain Industrial",
     "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/industrial-marketbeat",
     "date": "Marta Esclapés • 30/04/2026",
@@ -136,19 +144,11 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Hospitality",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/hospitality-marketbeat",
-    "date": "Marta Esclapés • 05/04/2026",
+    "title": "France MarketBeat Residential",
+    "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-residential",
+    "date": "Aymeric Sevestre • 28/05/2024",
     "dateObj": null,
-    "summary": "Summary of the Spanish hospitality market across key cities and tourist destinations. Get up-to-date insight into sector trends, including transaction activity, pricing evolution, investment analysis, and demand dynamics.",
-    "image": ""
-  },
-  {
-    "title": "Poland MarketBeat",
-    "link": "https://www.cushmanwakefield.com/pl-pl/poland/insights/poland-marketbeat",
-    "date": "Ewa Derlatka-Chilewicz • 03/03/2026",
-    "dateObj": null,
-    "summary": "Cushman & Wakefield MarketBeat reports analyse quarterly Poland commercial property activity across office, retail and industrial real estate sectors including supply, demand and pricing trends at the market and submarket levels.",
+    "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
     "image": ""
   },
   {
