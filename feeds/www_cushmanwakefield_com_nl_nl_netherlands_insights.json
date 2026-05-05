@@ -96,6 +96,14 @@
     "image": ""
   },
   {
+    "title": "Czech Republic Hospitality MarketBeat Reports",
+    "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat/hospitality-marketbeat",
+    "date": "Kamila Breen • 05/05/2026",
+    "dateObj": null,
+    "summary": "Access the latest quarterly commercial real estate results for CEE and Czech Republic's hospitality sector. MarketBeat reports analyse quarterly market activity including, supply, demand and pricing trends.",
+    "image": ""
+  },
+  {
     "title": "Czech Republic Retail MarketBeat Reports",
     "link": "https://www.cushmanwakefield.com/cs-cz/czech-republic/insights/czech-republic-marketbeat/retail-marketbeat",
     "date": "Kamila Breen • 04/05/2026",
@@ -136,19 +144,19 @@
     "image": ""
   },
   {
-    "title": "Marketbeat Spain Retail",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/spain-marketbeat/retail-marketbeat",
-    "date": "Marta Esclapés • 05/04/2026",
-    "dateObj": null,
-    "summary": "Retail Marketbeat is a summary of the Spain retail high streets property sector in key cities, shopping centres and Retail Parks providing comment on recent trends as well as market data, analysis and investment.",
-    "image": ""
-  },
-  {
     "title": "France MarketBeat Residential",
     "link": "https://www.cushmanwakefield.com/fr-fr/france/insights/france-marketbeat-residential",
     "date": "Aymeric Sevestre • 28/05/2024",
     "dateObj": null,
     "summary": "The “Marketbeat Residential France” market review analyses activity on the residential real estate market in France.",
+    "image": ""
+  },
+  {
+    "title": "Health of the Market - Hospitals and Primary Care",
+    "link": "https://www.cushmanwakefield.com/en/united-kingdom/insights/health-of-the-market-hospitals-primary-care",
+    "date": "Jack Kelleher • 05/05/2026",
+    "dateObj": null,
+    "summary": "After stellar investment into the healthcare sector during 2025, the geopolitical landscape has shifted investor sentiment across real estate. Nevertheless, the fundamentals remain robust across all subsectors of Healthcare.",
     "image": ""
   },
   {
@@ -189,14 +197,6 @@
     "date": "07/04/2026",
     "dateObj": null,
     "summary": "Structural bottlenecks in the housing market and the sector’s high resilience to economic downturns continue to make residential property a preferred investment vehicle for many investors.",
-    "image": ""
-  },
-  {
-    "title": "European Luxury Retail",
-    "link": "https://www.cushmanwakefield.com/es-es/spain/insights/european-luxury-retail",
-    "date": "07/04/2026",
-    "dateObj": null,
-    "summary": "Explore the dynamics of the European luxury retail real estate market.",
     "image": ""
   },
   {
