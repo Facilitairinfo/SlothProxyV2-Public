@@ -6,6 +6,15 @@
       <description>Feed for www_cfpb_nl_actueel</description>
       
     <item>
+      <title><![CDATA[Lees verder 25 jaar CFPB: weten wat werkt, ook als werk verandert]]></title>
+      <link>https://www.cfpb.nl/actueel/25-jaar-cfpb-weten-wat-werkt-ook-als-werk-verandert</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CFPB bestaat 25 jaar: op 1 mei 2001 startten we met kennis maken en delen over mens, werk en werkomgeving.Lees verder]]></description>
+      <enclosure url="https://www.cfpb.nl/storage/media/2026/05/05/modules/blogs/overview/jpg/shared-image-2-555.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.cfpb.nl/storage/media/2026/05/05/modules/blogs/overview/jpg/shared-image-2-555.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Lees verder Bouwen aan een waardevolle werkomgeving via het CFPB-partnerprogramma]]></title>
       <link>https://www.cfpb.nl/actueel/bouwen-aan-een-waardevolle-werkomgeving-via-het-cfpb-partnerprogramma</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Ter gelegenheid van het CFPB Jaarcongres op woensdag 27 augustus publiceerden we een smaakvolle en leerzame publicatie over 5 jaar experimenteren in de hybride werkomgevingLees verder]]></description>
       <enclosure url="https://www.cfpb.nl/storage/media/2025/09/01/modules/blogs/overview/jpg/cfpb-wat-werkt-in-de-hybride-werkomgeving-2025-1-260.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.cfpb.nl/storage/media/2025/09/01/modules/blogs/overview/jpg/cfpb-wat-werkt-in-de-hybride-werkomgeving-2025-1-260.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Lees verder Wat doen we eigenlijk op kantoor?]]></title>
-      <link>https://www.cfpb.nl/actueel/wat-doen-we-eigenlijk-op-kantoor</link>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Met hybride werken is het beeld ontstaan: thuis is voor concentratie, kantoor voor overleg en ontmoeting. Maar klopt dat wel? Nieuw onderzoek van het Center for People and Buildings (CFPB) laat zien dat de werkzaamheden op kantoor sinds de pandemie flink is veranderd (Werk in Transitie, 2025).Lees verder]]></description>
-      <enclosure url="https://www.cfpb.nl/storage/media/2025/08/11/modules/blogs/overview/jpg/dsc1298-1-259.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.cfpb.nl/storage/media/2025/08/11/modules/blogs/overview/jpg/dsc1298-1-259.jpg" medium="image" />
     </item>
     </channel>
   </rss>
