@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Met Fontys ontwikkelen we een AI-oplossing om inclusiever te werken]]></title>
+      <link>https://www.csu.nl/nieuws/met-fontys-ontwikkelden-we-een-ai-oplossing-om-inclusiever-te-werken/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Samenwerking  Innovatie]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/05/Fontys-en-CSU-ontwikkelen-AI-oplossing-om-inclusiever-te-werken-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/05/Fontys-en-CSU-ontwikkelen-AI-oplossing-om-inclusiever-te-werken-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[“Samen versterk je de hele koffieketen”]]></title>
       <link>https://www.csu.nl/nieuws/samen-versterk-je-de-hele-koffieketen/</link>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Persbericht]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2025/12/Total-Care-logo-800x800-1.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2025/12/Total-Care-logo-800x800-1.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Schoonmaken bij GGZ Rivierduinen: intensief maar betekenisvol]]></title>
-      <link>https://www.csu.nl/nieuws/schoonmaken-bij-ggz-rivierduinen-intensief-maar-betekenisvol/</link>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Klantverhalen  Samenwerking  Zorg]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2025/11/Schoonmaken-bij-GGZ-Rivierduinen-intensief-maar-betekenisvol-800x800-1.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2025/11/Schoonmaken-bij-GGZ-Rivierduinen-intensief-maar-betekenisvol-800x800-1.jpg" medium="image" />
     </item>
     </channel>
   </rss>
