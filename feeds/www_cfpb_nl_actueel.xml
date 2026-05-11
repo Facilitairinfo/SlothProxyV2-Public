@@ -6,6 +6,15 @@
       <description>Feed for www_cfpb_nl_actueel</description>
       
     <item>
+      <title><![CDATA[Lees verder Wat een bezoek aan een congres over de toekomst van werk ons leerde]]></title>
+      <link>https://www.cfpb.nl/actueel/wat-een-bezoek-aan-een-congres-over-de-toekomst-van-werk-ons-leerde</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Een interview met senior onderzoeker Mathilda du Preez en onderzoek Gijs Brouwers over het Future of Work Congres 2026 van de Universiteit Utrecht.Lees verder]]></description>
+      <enclosure url="https://www.cfpb.nl/storage/media/2026/05/11/modules/blogs/overview/jpg/mathilda-gijs-558.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.cfpb.nl/storage/media/2026/05/11/modules/blogs/overview/jpg/mathilda-gijs-558.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Lees verder 25 jaar CFPB: weten wat werkt, ook als werk verandert]]></title>
       <link>https://www.cfpb.nl/actueel/25-jaar-cfpb-weten-wat-werkt-ook-als-werk-verandert</link>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Tijdens het CFPB Jaarcongres 2025 verkenden ruim 100 professionals de lessen van vijf jaar hybride werken. In keynotes, sessies en gesprekken werd duidelijk dat hybride werken geen vast recept kent, maar vraagt om maatwerk, slimme inrichting en nieuwe vormen van leiderschap. Thema’s als gezondheid, technostress, ruimtegebruik en de rol van het kantoor kwamen aan bod. Hoogtepunt was de lancering van de publicatie “Wat werkt in de hybride omgeving?”, overhandigd aan Paul Pegels. Conclusie: hybride werken is geen eindpunt, maar een blijvende transitie.Lees verder]]></description>
       <enclosure url="https://www.cfpb.nl/storage/media/2025/09/02/modules/blogs/overview/jpg/dsc2202-1-292.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.cfpb.nl/storage/media/2025/09/02/modules/blogs/overview/jpg/dsc2202-1-292.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Lees verder CFPB-publicatie over lessen uit pilots in de hybride werkomgeving]]></title>
-      <link>https://www.cfpb.nl/actueel/nieuw-cfpb-magazine-over-pilots-in-de-hybride-werkomgeving</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Ter gelegenheid van het CFPB Jaarcongres op woensdag 27 augustus publiceerden we een smaakvolle en leerzame publicatie over 5 jaar experimenteren in de hybride werkomgevingLees verder]]></description>
-      <enclosure url="https://www.cfpb.nl/storage/media/2025/09/01/modules/blogs/overview/jpg/cfpb-wat-werkt-in-de-hybride-werkomgeving-2025-1-260.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.cfpb.nl/storage/media/2025/09/01/modules/blogs/overview/jpg/cfpb-wat-werkt-in-de-hybride-werkomgeving-2025-1-260.jpg" medium="image" />
     </item>
     </channel>
   </rss>
