@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Total Care reduceert CO2-uitstoot met 19% en zet volgende stap richting netto nul]]></title>
+      <link>https://www.csu.nl/nieuws/total-care-reduceert-co2-uitstoot-met-19-en-zet-volgende-stap-richting-netto-nul/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-8-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-8-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Onderhandelingsresultaat nieuwe cao Schoonmaak- en Glazenwassersbranche]]></title>
       <link>https://www.csu.nl/nieuws/https-www-csu-nl-nieuws-onderhandelingsresultaat-nieuwe-cao-schoonmaak-en-glazenwassersbranche-nieuwe-afspraken-voor-de-branche-en-medewerkers/</link>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Mens]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/01/CSU-Top-Employer-2026-800x800-1.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/01/CSU-Top-Employer-2026-800x800-1.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Total Care reduceert fors CO₂: 17,2% minder in 2024, mooie stappen in 2025, focus op vooruit]]></title>
-      <link>https://www.csu.nl/nieuws/total-care-reduceert-fors-co%e2%82%82-172-minder-in-2024-mooie-stappen-in-2025-focus-op-vooruit/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Duurzaamheid]]></description>
-      
-      
     </item>
     </channel>
   </rss>
