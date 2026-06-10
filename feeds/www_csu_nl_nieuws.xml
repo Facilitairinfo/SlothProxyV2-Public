@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[“CSU ontzorgt ons volledig, met een klein en betrokken team”]]></title>
+      <link>https://www.csu.nl/nieuws/csu-ontzorgt-ons-volledig-met-een-klein-en-betrokken-team/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Klantverhalen]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-9-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-9-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Total Care reduceert CO2-uitstoot met 19% en zet volgende stap richting netto nul]]></title>
       <link>https://www.csu.nl/nieuws/total-care-reduceert-co2-uitstoot-met-19-en-zet-volgende-stap-richting-netto-nul/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Duurzaamheid]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/01/Ontwerp-zonder-titel-10.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/01/Ontwerp-zonder-titel-10.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[CSU voor de dertiende keer op rij Top Employer]]></title>
-      <link>https://www.csu.nl/nieuws/csu-voor-de-dertiende-keer-op-rij-top-employer/</link>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mens]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/01/CSU-Top-Employer-2026-800x800-1.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/01/CSU-Top-Employer-2026-800x800-1.jpg" medium="image" />
     </item>
     </channel>
   </rss>
