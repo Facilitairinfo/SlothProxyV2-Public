@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[CSU tekent vijf jaar bij als Strategisch Partner van Feyenoord]]></title>
+      <link>https://www.csu.nl/nieuws/csu-tekent-vijf-jaar-bij-als-strategisch-partner-van-feyenoord/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Persbericht]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSY-Feyenoord-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSY-Feyenoord-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Succesvolle samenwerking HagaZiekenhuis en schoonmaakbedrijf CSU verlengd en uitgebreid]]></title>
       <link>https://www.csu.nl/nieuws/succesvolle-samenwerking-hagaziekenhuis-en-schoonmaakbedrijf-csu-verlengd-en-uitgebreid/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/CSU-header-mobile-800x500-4.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/CSU-header-mobile-800x500-4.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Mijn mini CSU-museum]]></title>
-      <link>https://www.csu.nl/nieuws/mijn-mini-csu-museum/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
-      
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/mini-csu-museum-mobile.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/mini-csu-museum-mobile.png" medium="image" />
     </item>
     </channel>
   </rss>
