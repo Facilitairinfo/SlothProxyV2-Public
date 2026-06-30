@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[CSU beste schoonmaakpartner van 2026 volgens MT500]]></title>
+      <link>https://www.csu.nl/nieuws/csu-beste-schoonmaakpartner-van-2026-volgens-mt500/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Persbericht]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-beste-schoonmaakpartner-van-2026-volgens-MT500-800x800-logo-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-beste-schoonmaakpartner-van-2026-volgens-MT500-800x800-logo-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[CSU tekent vijf jaar bij als Strategisch Partner van Feyenoord]]></title>
       <link>https://www.csu.nl/nieuws/csu-tekent-vijf-jaar-bij-als-strategisch-partner-van-feyenoord/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Mens]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/Ontwerp-zonder-titel-20.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/Ontwerp-zonder-titel-20.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Toekomstmuseum Next Nature vindt in CSU een innovatieve partner]]></title>
-      <link>https://www.csu.nl/nieuws/toekomstmuseum-next-nature-vindt-in-csu-een-innovatieve-partner/</link>
-      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
-      
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/CSU-header-mobile-800x500-4.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/CSU-header-mobile-800x500-4.png" medium="image" />
     </item>
     </channel>
   </rss>
