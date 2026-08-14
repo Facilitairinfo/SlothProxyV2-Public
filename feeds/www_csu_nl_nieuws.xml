@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[FC Twente en CSU verlengen samenwerking]]></title>
+      <link>https://www.csu.nl/nieuws/fc-twente-en-csu-verlengen-samenwerking/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/08/CSU-header-mobile-800x500-10-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/08/CSU-header-mobile-800x500-10-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[CSU beste schoonmaakpartner van 2026 volgens MT500]]></title>
       <link>https://www.csu.nl/nieuws/csu-beste-schoonmaakpartner-van-2026-volgens-mt500/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Persbericht  Innovatie]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/03/MyHives-Nest-wint-CSU-Innovatie-Award-2026-800x800-1.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/03/MyHives-Nest-wint-CSU-Innovatie-Award-2026-800x800-1.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Achter de schermen van station Oeteldonk Centraol: ónze mensen maken het verschil]]></title>
-      <link>https://www.csu.nl/nieuws/carnaval-op-station-den-bosch-het-vakmanschap-achter-een-schoon-en-veilig-station/</link>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mens]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/02/Ontwerp-zonder-titel-20.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/02/Ontwerp-zonder-titel-20.png" medium="image" />
     </item>
     </channel>
   </rss>
