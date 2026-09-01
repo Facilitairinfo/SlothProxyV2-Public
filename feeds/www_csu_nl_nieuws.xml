@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[CSU roept overheid op oplossingen voor duurzame schoonmaak sneller op te schalen]]></title>
+      <link>https://www.csu.nl/nieuws/csu-roept-overheid-op-oplossingen-voor-duurzame-schoonmaak-sneller-op-te-schalen/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Duurzaamheid  Persbericht]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/09/CSU-Sectorkoffer-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/09/CSU-Sectorkoffer-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[FC Twente en CSU verlengen samenwerking]]></title>
       <link>https://www.csu.nl/nieuws/fc-twente-en-csu-verlengen-samenwerking/</link>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Podcast]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/podcast-13-april-002-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/podcast-13-april-002-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[MyHives Nest wint CSU Innovatie Award 2026]]></title>
-      <link>https://www.csu.nl/nieuws/myhives-nest-wint-csu-innovatie-award-2026/</link>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Persbericht  Innovatie]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/03/MyHives-Nest-wint-CSU-Innovatie-Award-2026-800x800-1.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/03/MyHives-Nest-wint-CSU-Innovatie-Award-2026-800x800-1.jpg" medium="image" />
     </item>
     </channel>
   </rss>
