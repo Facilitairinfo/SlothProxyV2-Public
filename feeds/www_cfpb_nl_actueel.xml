@@ -6,6 +6,15 @@
       <description>Feed for www_cfpb_nl_actueel</description>
       
     <item>
+      <title><![CDATA[Lees verder Wat zegt een bezetting van 45 procent?]]></title>
+      <link>https://www.cfpb.nl/actueel/wat-zegt-een-bezetting-van-45-procent</link>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Een gemiddelde kantoorbezetting zegt minder dan je misschien denkt. Dit artikel laat zien hoe meetmethode, spreiding, werkplekmix, gebruiksgedrag en druktebeleving samen bepalen of er daadwerkelijk knelpunten ontstaan.Lees verder]]></description>
+      <enclosure url="https://www.cfpb.nl/storage/media/2026/09/08/modules/blogs/overview/jpg/chatgpt-image-8-sep-2026-16-26-28-719.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.cfpb.nl/storage/media/2026/09/08/modules/blogs/overview/jpg/chatgpt-image-8-sep-2026-16-26-28-719.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Lees verder 7 lessen voor hybride werken uit vijf jaar Werk in Transitie]]></title>
       <link>https://www.cfpb.nl/actueel/7-lessen-voor-hybride-werken-uit-vijf-jaar-werk-in-transitie</link>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[CFPB bestaat 25 jaar: op 1 mei 2001 startten we met kennis maken en delen over mens, werk en werkomgeving.Lees verder]]></description>
       <enclosure url="https://www.cfpb.nl/storage/media/2026/05/05/modules/blogs/overview/jpg/shared-image-2-555.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.cfpb.nl/storage/media/2026/05/05/modules/blogs/overview/jpg/shared-image-2-555.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Lees verder Bouwen aan een waardevolle werkomgeving via het CFPB-partnerprogramma]]></title>
-      <link>https://www.cfpb.nl/actueel/bouwen-aan-een-waardevolle-werkomgeving-via-het-cfpb-partnerprogramma</link>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[De missie van het CFPB is het stimuleren van een waardevolle werkomgeving voor elke organisatie. Daarbij hanteren we het motto ‘weten wat werkt’. Dit doen we samen met organisaties die willen bijdragen aan kennisontwikkeling in het werkveld via partnerprogramma’s.Lees verder]]></description>
-      <enclosure url="https://www.cfpb.nl/storage/media/2026/04/22/modules/blogs/overview/jpg/presentatie1-523.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.cfpb.nl/storage/media/2026/04/22/modules/blogs/overview/jpg/presentatie1-523.jpg" medium="image" />
     </item>
     </channel>
   </rss>
