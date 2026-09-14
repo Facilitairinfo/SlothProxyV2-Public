@@ -6,6 +6,15 @@
       <description>Feed for www_cfpb_nl_actueel</description>
       
     <item>
+      <title><![CDATA[Lees verder Waarom komt iedereen op dinsdag en donderdag naar kantoor?]]></title>
+      <link>https://www.cfpb.nl/actueel/waarom-komt-iedereen-op-dinsdag-en-donderdag-naar-kantoor</link>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Organisaties willen die bezetting beter spreiden over de week om kantoorruimte en energie efficiënter te gebruiken, kosten te beheersen en de druk op weg en spoor te verlichten. Waarom kiezen zoveel medewerkers dezelfde dagen, is het patroon sterker dan vóór de coronacrisis en wat kunnen organisaties eraan doen?Lees verder]]></description>
+      <enclosure url="https://www.cfpb.nl/storage/media/2026/09/14/modules/blogs/overview/jpg/shared-image-2-726.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.cfpb.nl/storage/media/2026/09/14/modules/blogs/overview/jpg/shared-image-2-726.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Lees verder Wat zegt een bezetting van 45 procent?]]></title>
       <link>https://www.cfpb.nl/actueel/wat-zegt-een-bezetting-van-45-procent</link>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Een interview met senior onderzoeker Mathilda du Preez en onderzoeker Gijs Brouwers over het Future of Work Congres 2026 van de Universiteit Utrecht.Lees verder]]></description>
       <enclosure url="https://www.cfpb.nl/storage/media/2026/05/11/modules/blogs/overview/jpg/mathilda-gijs-558.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.cfpb.nl/storage/media/2026/05/11/modules/blogs/overview/jpg/mathilda-gijs-558.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Lees verder 25 jaar CFPB: weten wat werkt, ook als werk verandert]]></title>
-      <link>https://www.cfpb.nl/actueel/25-jaar-cfpb-weten-wat-werkt-ook-als-werk-verandert</link>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CFPB bestaat 25 jaar: op 1 mei 2001 startten we met kennis maken en delen over mens, werk en werkomgeving.Lees verder]]></description>
-      <enclosure url="https://www.cfpb.nl/storage/media/2026/05/05/modules/blogs/overview/jpg/shared-image-2-555.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.cfpb.nl/storage/media/2026/05/05/modules/blogs/overview/jpg/shared-image-2-555.jpg" medium="image" />
     </item>
     </channel>
   </rss>
