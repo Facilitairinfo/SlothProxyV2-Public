@@ -6,12 +6,21 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[CSU en provincie Utrecht bouwen samen verder aan een toekomst]]></title>
+      <link>https://www.csu.nl/nieuws/csu-%f0%9d%97%b2%f0%9d%97%bb-%f0%9d%97%a3%f0%9d%97%bf%f0%9d%97%bc%f0%9d%98%83%f0%9d%97%b6%f0%9d%97%bb%f0%9d%97%b0%f0%9d%97%b6%f0%9d%97%b2-%f0%9d%97%a8%f0%9d%98%81%f0%9d%97%bf%f0%9d%97%b2%f0%9d%97%b0ht/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/09/CSU-nieuwsbericht-uitgelichte-afbeelding-800x800-1-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/09/CSU-nieuwsbericht-uitgelichte-afbeelding-800x800-1-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Niels van Geenhuizen vertegenwoordigt opnieuw duurzame schoonmaak en thuiszorg in top 10 MVO Manager van het Jaar]]></title>
       <link>https://www.csu.nl/nieuws/niels-van-geenhuizen-met-duurzame-schoonmaak-en-thuiszorg-in-top-10-mvo-manager-van-het-jaar/</link>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Duurzaamheid]]></description>
-      
-      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2023/03/Niels-van-Geenhuizen-eerste-Manager-Duurzaamheid-800x500-1-440x350.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2023/03/Niels-van-Geenhuizen-eerste-Manager-Duurzaamheid-800x500-1-440x350.jpg" medium="image" />
     </item>
 
     <item>
@@ -102,15 +111,6 @@
       <description><![CDATA[Klantverhalen]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/04/Jip-header-92-340x200.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/04/Jip-header-92-340x200.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Total Care groeit naar € 964,9 miljoen omzet; mensgericht en aantoonbaar duurzamer]]></title>
-      <link>https://www.csu.nl/nieuws/total-care-groeit-naar-e-9649-miljoen-omzet-mensgericht-en-aantoonbaar-duurzamer/</link>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Jaarverslag]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/04/CSU-2025-in-beeld-jaarverslag-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/04/CSU-2025-in-beeld-jaarverslag-800x800-1-340x200.jpg" medium="image" />
     </item>
     </channel>
   </rss>
