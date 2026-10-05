@@ -6,6 +6,15 @@
       <description>Feed for www_cfpb_nl_actueel</description>
       
     <item>
+      <title><![CDATA[Lees verder Hoe het kantoor kan bijdragen aan aantrekkelijk werkgeverschap]]></title>
+      <link>https://www.cfpb.nl/actueel/hoe-het-kantoor-kan-bijdragen-aan-aantrekkelijk-werkgeverschap</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Organisaties willen aantrekkelijk zijn voor (potentiële) medewerkers. Via verschillende mechanismes kan het kantoor aantrekkelijk werkgeverschap beïnvloeden.Lees verder]]></description>
+      <enclosure url="https://www.cfpb.nl/storage/media/2026/10/05/modules/blogs/overview/jpg/cfpb-welzijn-en-gezondheid-02-1-727.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.cfpb.nl/storage/media/2026/10/05/modules/blogs/overview/jpg/cfpb-welzijn-en-gezondheid-02-1-727.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Lees verder Waarom komt iedereen op dinsdag en donderdag naar kantoor?]]></title>
       <link>https://www.cfpb.nl/actueel/waarom-komt-iedereen-op-dinsdag-en-donderdag-naar-kantoor</link>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Op 7 mei 2026 organiseerde CFPB het eerste online CFPB Kennisatelier: een bijeenkomst voor onderzoekers die werken aan vraagstukken rond mens, werk en werkomgeving.Lees verder]]></description>
       <enclosure url="https://www.cfpb.nl/storage/media/2026/05/22/modules/blogs/overview/jpg/cfpb-kennisoverdracht-02-aangepast-561.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.cfpb.nl/storage/media/2026/05/22/modules/blogs/overview/jpg/cfpb-kennisoverdracht-02-aangepast-561.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Lees verder Wat een bezoek aan een congres over de toekomst van werk ons leerde]]></title>
-      <link>https://www.cfpb.nl/actueel/wat-een-bezoek-aan-een-congres-over-de-toekomst-van-werk-ons-leerde</link>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Een interview met senior onderzoeker Mathilda du Preez en onderzoeker Gijs Brouwers over het Future of Work Congres 2026 van de Universiteit Utrecht.Lees verder]]></description>
-      <enclosure url="https://www.cfpb.nl/storage/media/2026/05/11/modules/blogs/overview/jpg/mathilda-gijs-558.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.cfpb.nl/storage/media/2026/05/11/modules/blogs/overview/jpg/mathilda-gijs-558.jpg" medium="image" />
     </item>
     </channel>
   </rss>
