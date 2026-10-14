@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Duurzaam woon-werkverkeer begint bij bereikbare oplossingen]]></title>
+      <link>https://www.csu.nl/nieuws/duurzaam-woon-werkverkeer-begint-bij-bereikbare-oplossingen/</link>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Duurzaamheid]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/08/CSU-header-duurzame-dinsdag-mobile-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/08/CSU-header-duurzame-dinsdag-mobile-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Rijnstate ziekenhuis kiest CSU Zorg als nieuwe schoonmaakpartner]]></title>
       <link>https://www.csu.nl/nieuws/rijnstate-ziekenhuis-kiest-csu-zorg-als-nieuwe-schoonmaakpartner/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Mens]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/05/Ontwerp-zonder-titel-22-340x200.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/05/Ontwerp-zonder-titel-22-340x200.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Met Fontys ontwikkelen we een AI-oplossing om inclusiever te werken]]></title>
-      <link>https://www.csu.nl/nieuws/met-fontys-ontwikkelden-we-een-ai-oplossing-om-inclusiever-te-werken/</link>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Samenwerking  Innovatie]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/05/Fontys-en-CSU-ontwikkelen-AI-oplossing-om-inclusiever-te-werken-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/05/Fontys-en-CSU-ontwikkelen-AI-oplossing-om-inclusiever-te-werken-800x800-1-340x200.jpg" medium="image" />
     </item>
     </channel>
   </rss>
