@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Een terugblik op de MeeWerkWeek 2026]]></title>
+      <link>https://www.csu.nl/nieuws/een-terugblik-op-de-meewerkweek-2026/</link>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/10/MWW-Diane-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/10/MWW-Diane-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Duurzaam woon-werkverkeer begint bij bereikbare oplossingen]]></title>
       <link>https://www.csu.nl/nieuws/duurzaam-woon-werkverkeer-begint-bij-bereikbare-oplossingen/</link>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-8-340x200.png" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-8-340x200.png" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Onderhandelingsresultaat nieuwe cao Schoonmaak- en Glazenwassersbranche]]></title>
-      <link>https://www.csu.nl/nieuws/https-www-csu-nl-nieuws-onderhandelingsresultaat-nieuwe-cao-schoonmaak-en-glazenwassersbranche-nieuwe-afspraken-voor-de-branche-en-medewerkers/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mens]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/05/Ontwerp-zonder-titel-22-340x200.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/05/Ontwerp-zonder-titel-22-340x200.png" medium="image" />
     </item>
     </channel>
   </rss>
