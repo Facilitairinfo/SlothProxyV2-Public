@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Hoe innoveer je als schoonmaakbedrijf?]]></title>
+      <link>https://www.csu.nl/nieuws/hoe-innoveer-je-als-schoonmaakbedrijf/</link>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Innovatie]]></description>
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/11/Interview-Kos-Facto-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/11/Interview-Kos-Facto-800x800-1-340x200.jpg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Samen slimmer schoon bij Makro: hoe mens en robot elkaar versterken]]></title>
       <link>https://www.csu.nl/nieuws/samen-slimmer-schoon-bij-makro-hoe-mens-en-robot-elkaar-versterken/</link>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Persbericht]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/Succesvolle-samenwerking-HagaZiekenhuis-en-schoonmaakbedrijf-CSU-verlengd-en-uitgebreid-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/Succesvolle-samenwerking-HagaZiekenhuis-en-schoonmaakbedrijf-CSU-verlengd-en-uitgebreid-800x800-1-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[“CSU ontzorgt ons volledig, met een klein en betrokken team”]]></title>
-      <link>https://www.csu.nl/nieuws/csu-ontzorgt-ons-volledig-met-een-klein-en-betrokken-team/</link>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Klantverhalen]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-9-340x200.png" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-header-mobile-800x500-9-340x200.png" medium="image" />
     </item>
     </channel>
   </rss>
