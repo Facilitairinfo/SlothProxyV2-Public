@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[We weten al hoe het kan. Nu nog opschalen.]]></title>
+      <link>https://www.csu.nl/nieuws/we-weten-al-hoe-het-kan-nu-nog-opschalen/</link>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/11/CSU-header-mobile-800x500-14-340x200.png" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/11/CSU-header-mobile-800x500-14-340x200.png" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[Hoe innoveer je als schoonmaakbedrijf?]]></title>
       <link>https://www.csu.nl/nieuws/hoe-innoveer-je-als-schoonmaakbedrijf/</link>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Persbericht]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSY-Feyenoord-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSY-Feyenoord-800x800-1-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[Succesvolle samenwerking HagaZiekenhuis en schoonmaakbedrijf CSU verlengd en uitgebreid]]></title>
-      <link>https://www.csu.nl/nieuws/succesvolle-samenwerking-hagaziekenhuis-en-schoonmaakbedrijf-csu-verlengd-en-uitgebreid/</link>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Persbericht]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/Succesvolle-samenwerking-HagaZiekenhuis-en-schoonmaakbedrijf-CSU-verlengd-en-uitgebreid-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/Succesvolle-samenwerking-HagaZiekenhuis-en-schoonmaakbedrijf-CSU-verlengd-en-uitgebreid-800x800-1-340x200.jpg" medium="image" />
     </item>
     </channel>
   </rss>
