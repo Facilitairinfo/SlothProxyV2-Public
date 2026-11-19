@@ -6,6 +6,15 @@
       <description>Feed for www_csu_nl_nieuws</description>
       
     <item>
+      <title><![CDATA[Van afval naar waarde: 8 kansen om restafval te verminderen]]></title>
+      <link>https://www.csu.nl/nieuws/van-afval-naar-waarde-8-kansen-om-restafval-te-verminderen/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      
+      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/11/IMG_5028-340x200.jpeg" type="image/jpeg" length="0" />
+      <media:content url="https://www.csu.nl/wp-content/uploads/2026/11/IMG_5028-340x200.jpeg" medium="image" />
+    </item>
+
+    <item>
       <title><![CDATA[We weten al hoe het kan. Nu nog opschalen.]]></title>
       <link>https://www.csu.nl/nieuws/we-weten-al-hoe-het-kan-nu-nog-opschalen/</link>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
@@ -102,15 +111,6 @@
       <description><![CDATA[Persbericht]]></description>
       <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-beste-schoonmaakpartner-van-2026-volgens-MT500-800x800-logo-340x200.jpg" type="image/jpeg" length="0" />
       <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSU-beste-schoonmaakpartner-van-2026-volgens-MT500-800x800-logo-340x200.jpg" medium="image" />
-    </item>
-
-    <item>
-      <title><![CDATA[CSU tekent vijf jaar bij als Strategisch Partner van Feyenoord]]></title>
-      <link>https://www.csu.nl/nieuws/csu-tekent-vijf-jaar-bij-als-strategisch-partner-van-feyenoord/</link>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Persbericht]]></description>
-      <enclosure url="https://www.csu.nl/wp-content/uploads/2026/06/CSY-Feyenoord-800x800-1-340x200.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://www.csu.nl/wp-content/uploads/2026/06/CSY-Feyenoord-800x800-1-340x200.jpg" medium="image" />
     </item>
     </channel>
   </rss>
